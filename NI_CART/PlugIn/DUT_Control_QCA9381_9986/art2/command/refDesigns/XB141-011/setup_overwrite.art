@@ -1,0 +1,66 @@
+#########################################################################
+# DEVICE NAME: XB141-011     						#
+# FILE TYPE:   setup_overwrite     						#
+#                             						#
+# 									#
+#########################################################################
+#									#
+# The "_loaded" is a variable to be used for error checking		#
+# within the test flow. Valid data values are:				#
+#	0: 	file was never loaded, flow should halt with error 	#
+#		indicating file missing					#
+#	1: 	blank placeholder was loaded, no values will be 	#
+#		applied							#
+#	2:	populated file was loaded and values 			#
+#		will be applied						#
+#									#
+#########################################################################
+
+#########################################################################
+
+        assign setup_overwrite_loaded = 2;
+
+
+# all the setup here might be design or customer specified.
+# This will overwrite all the setup you had in test_setup folder (not overwrite .ref file)
+
+show refdesign
+
+assign tx_pwr_pack_len=15000
+
+#assign 5G.TxPowerCal.Freq=5180,5240,5320,5520,5640,5745,5785,5825;
+
+assign 2G.TxPowerCal.Freq=2412,2437,2462;
+assign 5G.TxPowerCal.Freq=5200,5300,5520,5580,5640,5700,5765,5805
+
+assign 2G.XtalCal.11AC=1
+
+
+# Perform an element by element assignment as TxPowerCal.Freq may not be overwritten in some designs.
+
+calculate elem_1 = element(2G.TxPowerCal.Freq,1);
+calculate elem_2 = element(2G.TxPowerCal.Freq,2);
+calculate elem_3 = element(2G.TxPowerCal.Freq,3);
+assign 2G.RxCal.Freq=$elem_1,$elem_2,$elem_3;
+
+
+calculate elem_1 = element(5G.TxPowerCal.Freq,1);
+calculate elem_2 = element(5G.TxPowerCal.Freq,2);
+calculate elem_3 = element(5G.TxPowerCal.Freq,3);
+calculate elem_4 = element(5G.TxPowerCal.Freq,4);
+calculate elem_5 = element(5G.TxPowerCal.Freq,5);
+calculate elem_6 = element(5G.TxPowerCal.Freq,6);
+calculate elem_7 = element(5G.TxPowerCal.Freq,7);
+calculate elem_8 = element(5G.TxPowerCal.Freq,8);
+assign 5G.RxCal.Freq=$elem_1,$elem_2,$elem_3,$elem_4,$elem_5,$elem_6,$elem_7,$elem_8;
+
+assign 2G.TxPowerCal.Limit=255
+assign 5G.TxPowerCal.Limit=255
+
+assign HAL.Memory.Output.Disable=1;
+assign HAL.Memory.Output=file;
+
+assign 5G.Disable=1
+
+
+

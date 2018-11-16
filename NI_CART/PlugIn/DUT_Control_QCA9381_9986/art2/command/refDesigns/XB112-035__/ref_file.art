@@ -1,0 +1,149 @@
+#########################################################################
+# DEVICE NAME: XB112-035     						#
+# FILE TYPE:   ref_file     						#
+#                             						#
+# 									#
+#########################################################################
+#									#
+# The "_loaded" is a variable to be used for error checking		#
+# within the test flow. Valid data values are:				#
+#	0: 	file was never loaded, flow should halt with error 	#
+#		indicating file missing					#
+#	1: 	blank placeholder was loaded, no values will be 	#
+#		applied							#
+#	2:	populated file was loaded and values 			#
+#		will be applied						#
+#									#
+#########################################################################
+
+#########################################################################
+
+        assign ref_file_loaded = 2;
+
+
+#specify the best template to use to result in less information stored in OTP or eeprom
+#select template types from
+#    	OspreyGeneric=2,
+#	HB112=3,
+#	HB116=4,
+#	XB112=5,
+#	XB113=6,
+#template i=$inst; prefer=5; allow=5,2; install=yes;
+
+#subsystem and subverdor ID's
+set i=$inst; ssid=3112;
+set i=$inst; svid=168c;
+
+# set device type 
+# 1=>Cardbus, 2=>PCI, 3=>miniPCI, 4=>AP, 5=>PCIe mini, 6=>pcie express, 7=>pcie desktop
+set i=$inst; devicetype=4;
+
+# set Reg domain
+# customers can set regulatory domain index here
+set i=$inst; regdmn=0;
+
+#tx and rx chain mask: bit0 = chain0 enable, 
+#                      bit1 = chain1 enable, 
+#                      bit2 = chain2 enable 
+set i=$inst; txmask=3;
+set i=$inst; rxmask=3;
+
+#configure modes: 
+#	    bit0 = enable 5GHz
+#           bit1 = enable 2GHz
+#           bit2 = disable 5G HT40
+#           bit3 = disable 2G HT40
+#           bit4 = disable 5G HT20
+#           bit5 = disable 2G HT20
+#Note: these flags will be given individual commands in subsequent release 
+set i=$inst; opflags=2;
+
+#antenna switch table control
+#2GHz
+set i=$inst; antctrlcommon2g=110;
+set i=$inst; antctrlcommon22g=22222;
+set i=$inst; antCtrlChain2g=10, 10, 10;
+
+#5GHz
+#set i=$inst; antctrlcommon5g=110;
+#set i=$inst; antctrlcommon25g=22222;
+#set i=$inst; antCtrlChain5g=0, 0, 0;
+
+#strong signal parameters
+set i=$inst; xatten1Margin2g=0xb,0xb,0xb;
+#set i=$inst; xatten1Margin5g=0,0,0;
+#set i=$inst; xatten1Marginlow5g=0,0,0;
+#set i=$inst; xatten1Marginhigh5g=0,0,0;
+
+set i=$inst; xatten1db2g=0x1d,0x1d,0x1d;
+#set i=$inst; xatten1db5g=0,0,0;
+#set i=$inst; xatten1dblow5g=0,0,0;
+#set i=$inst; xatten1dbhigh5g=0,0,0;
+
+set i=$inst; miscellaneous.quickdropenable=1;
+set i=$inst; quickdrop2g=-51;
+#set i=$inst; quickdrop5g=-34;
+#set i=$inst; quickdroplow=-34;
+#set i=$inst; quickdrophigh=-34;
+
+# tx gain table
+#	0 ? for client based designs containing an XPA
+#	1 ? for no xpa design
+#	2 ? for AP based (or modules that will be used in an AP) designs containing an XPA
+#	3 ? not currently used
+set i=$inst; txgainTable=0
+
+# rxgainTable	
+#    0: xlna
+#    1: no xlna
+set i=$inst; rxgainTable=0;
+
+####  2G pa bias##################
+set i=$inst; xpabiaslvl2g=0xf
+#set i=$inst; xpabiaslvl2g=0xe
+##################################
+
+#Temperature compensation
+set i=$inst; temperatureCompensation=1
+set i=$inst; tempSlope2g=50		
+#set i=$inst; tempSlope5g=68
+set i=$inst; tempSlopelow=67
+set i=$inst; tempSlopehigh=83
+
+#force chainX thermometer at all times
+set i=$inst; thermometer=1;
+
+#GPIO for EEPROM protect
+set i=$inst; eepromWriteEnable=6;
+
+#enable spur mitigation
+set i=$inst; spurchans2g=2464;
+#set i=$inst; spurchans5g=5200,5240;
+
+#change 2GHz xpa timing, store into eeprom for now and apply with Sticky write
+set i=$inst; 2GHz.TxEndToXpaOff = 1;
+sw  i=$inst; a=BB_xpa_timing_control.tx_end_to_xpab_off; v=1;
+
+# configure gpio pull up/pull down to conserve sleep power
+set i=$inst; config=55852555; address=4090
+
+#set rfSilent by calling this file if needed
+# the following line was commented out during transition to "shift" style flow
+# #common\rfkill.art
+
+#set wake-on-wireless by calling this file if needed
+# the following line was commented out during transition to "shift" style flow
+# #common\wow.art
+
+#target power files
+# the following line was commented out during transition to "shift" style flow
+# refDesigns\XB112-035\xb112-035_trg_pwr.art
+ 
+#CTL Files
+# the following line was commented out during transition to "shift" style flow
+# common\ctl_generic.art
+
+#1 point -Cal Scheme
+# the following line was commented out during transition to "shift" style flow
+# common\setupcal-scheme0.art
+

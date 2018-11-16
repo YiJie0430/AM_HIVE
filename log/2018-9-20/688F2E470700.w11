@@ -1,0 +1,68 @@
+WIFI Calibration test program version: SR2_beta2 , Station: T8R1
+---------------------------------------
+Start Time:Thu Sep 20 17:26:13 2018
+Scan MAC address:688F2E470700
+wait dut boot...........
+pmf -e
+Device is already in factory mode. Exit operation
+root@piranha:/# 
+NrmSetup Start...
+Dload client_dec.key.:
+cd /var && tftp -g 192.168.1.70 -r client_dec.key
+root@piranha:/tmp# 
+Dload client.pem.:
+cd /var && tftp -g 192.168.1.70 -r client.pem
+root@piranha:/tmp# 
+BT.UUID:
+pmf -u -w 0xfe71
+WRITE OP: 0xfe71
+root@piranha:/tmp# 
+Eth.MAC:
+pmf -m -w 68:8F:2E:47:07:00
+params: 68:8F:2E:47:07:00
+WRITE OP: 68:8F:2E:47:07:00
+root@piranha:/tmp# 
+SN:
+pmf -s -w 123456789012
+WRITE OP: 123456789012
+root@piranha:/tmp# 
+Dload ca.pem.:
+cd /var && tftp -g 192.168.1.70 -r ca.pem
+root@piranha:/tmp# 
+pmf -f -a
+Success, file ca.pem written!
+Success, file client.pem written!
+Success, file client_dec.key written!
+OK
+root@piranha:/tmp# pmf -f -r
+Success, file /var/certs/ca.pem read!
+Success, file /var/certs/client.pem read!
+Success, file /var/certs/client_dec.key read!
+Finished, no more certificates found!
+OK
+root@piranha:/tmp# 
+Source File MD5:
+
+MD5sums 1.2 freeware for Win9x/ME/NT/2000/XP+
+Copyright (C) 2001-2005 Jem Berkes - http://www.pc-tools.net/
+Type md5sums -h for help
+
+[Path] / filename                              MD5 sum
+-------------------------------------------------------------------------------
+[D:\HitronProject\hive-2200_latest\HIVE-2200\HIVE-2200_NI_SR2\certificate\]
+ca.pem                                         0ef4d26bb553555acd81b986d711e16f
+client.pem                                     d098e843073da06a00813a4f8224bb19
+client_dec.key                                 52e470bfe2ee209451a3f2cda4808845
+
+ca.pem MD5 check: 0ef4d26bb553555acd81b986d711e16f
+client.pem MD5 check: d098e843073da06a00813a4f8224bb19
+client_dec.key MD5 check: 52e470bfe2ee209451a3f2cda4808845
+NrmSetup Test time: 26.51 (sec)
+---------------------------------------------------------------------------
+Start up 2G by cd / && ./etc/init.d/art start
+Check 2G initial ready Test time: 4.53 (sec)
+---------------------------------------------------------------------------
+
+End Time:Thu Sep 20 17:26:48 2018
+total time: 35.12
+Test Result:PASS

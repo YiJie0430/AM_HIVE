@@ -1,0 +1,72 @@
+#########################################################################
+# DEVICE NAME: XB141-011     						#
+# FILE TYPE:   trg_pwr     						#
+#                             						#
+# 									#
+#########################################################################
+#									#
+# The "_loaded" is a variable to be used for error checking		#
+# within the test flow. Valid data values are:				#
+#	0: 	file was never loaded, flow should halt with error 	#
+#		indicating file missing					#
+#	1: 	blank placeholder was loaded, no values will be 	#
+#		applied							#
+#	2:	populated file was loaded and values 			#
+#		will be applied						#
+#									#
+#########################################################################
+
+#########################################################################
+
+        assign trg_pwr_loaded = 2;
+
+
+# Target power freq piers for CCK, Max 2 piers, in order of f0, f1
+set i=$inst;2GHz.Target.Frequency.Cck=2412,2472;
+
+# Target power for each pier defined in caltgtfreqcck
+# 4 values represent the target power in dBm for the following data rate
+# 1L_5L,5S,11L,11S
+set i=$inst;2GHz.Target.Power.Cck[0]=19.5,19.5,19.5,19.5;
+set i=$inst;2GHz.Target.Power.Cck[1]=19.5,19.5,19.5,19.5;
+
+
+# Target power freq piers for OFDM legacy 2G, Max 3 piers, in order of f0, f1, f2
+set i=$inst;2GHz.Target.Frequency.Legacy=2412,2442,2472;
+
+# Target power for each pier defined in caltgtfreq2g
+# 4 values represent the target power in dBm for the following data rate
+# r6_24,r36,r48,r54
+set i=$inst;2GHz.Target.Power.Legacy[0]=19.5,19.5,19.5,18.5;
+set i=$inst;2GHz.Target.Power.Legacy[1]=19.5,19.5,19.5,18.5;
+set i=$inst;2GHz.Target.Power.Legacy[2]=19.5,19.5,19.5,18.5;
+
+
+# Target power freq piers for HT20 2G, Max 3 piers, in order of f0, f1, f2
+set i=$inst;2GHz.Target.Frequency.Vht20=2412,2442,2472;
+
+
+# Target power for each pier defined in caltgtfreqvht202g
+# 24 values represent the target power in dBm for the following data rate
+# MCS0, MCS1_2, MCS3_4, MCS5, MCS6, MCS7, MCS8, MCS9, 
+# MCS10, MCS11_12, MCS13_14, MCS15, MCS16, MCS17, MCS18, MCS19, 
+# MCS20, MCS21_22, MCS23_24, MCS25, MCS26, MCS27, MCS28, MCS29,
+
+set i=$inst;2GHz.Target.Power.Vht20[0]=19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5;
+set i=$inst;2GHz.Target.Power.Vht20[1]=19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5;
+set i=$inst;2GHz.Target.Power.Vht20[2]=19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5, 19.5,19.5,19.5,19.5,19,18.5,18,17.5;
+
+# Target power freq piers for VHT40 2G, Max 3 piers, in order of f0, f1, f2
+set i=$inst;2GHz.Target.Frequency.Vht40=2422,2437,2452;
+
+# Target power for each pier defined in caltgtfreqvht402g
+# 24 values represent the target power in dBm for the following data rate
+# MCS0, MCS1_2, MCS3_4, MCS5, MCS6, MCS7, MCS8, MCS9, 
+# MCS10, MCS11_12, MCS13_14, MCS15, MCS16, MCS17, MCS18, MCS19, 
+# MCS20, MCS21_22, MCS23_24, MCS25, MCS26, MCS27, MCS28, MCS29,
+
+set i=$inst;2GHz.Target.Power.Vht40[0]=18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5;
+set i=$inst;2GHz.Target.Power.Vht40[1]=18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5;
+set i=$inst;2GHz.Target.Power.Vht40[2]=18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5, 18.5,18.5,18.5,18.5,18,17.5,17,16.5;
+
+

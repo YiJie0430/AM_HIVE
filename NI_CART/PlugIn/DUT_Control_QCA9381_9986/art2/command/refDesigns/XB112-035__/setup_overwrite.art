@@ -1,0 +1,110 @@
+#########################################################################
+# DEVICE NAME: XB112-035     						#
+# FILE TYPE:   setup_overwrite     						#
+#                             						#
+# 									#
+#########################################################################
+#									#
+# The "_loaded" is a variable to be used for error checking		#
+# within the test flow. Valid data values are:				#
+#	0: 	file was never loaded, flow should halt with error 	#
+#		indicating file missing					#
+#	1: 	blank placeholder was loaded, no values will be 	#
+#		applied							#
+#	2:	populated file was loaded and values 			#
+#		will be applied						#
+#									#
+#########################################################################
+
+#########################################################################
+
+        assign setup_overwrite_loaded = 2;
+
+assign calibration.pcie.save.enable = 1
+
+assign 11nDesign=1;
+
+# all the setup here might be design or customer specified.
+# This will overwrite all the setup you had in test_setup folder (not overwrite .ref file)
+
+show refdesign
+
+
+
+assign 5G.TxPower.Legacy.Enable=1
+assign 5G.TxPower.HT20.1Stream.Enable=1
+assign 5G.TxPower.HT40.1Stream.Enable=1
+assign 5G.TxPower.VHT20.1Stream.Enable=0
+assign 5G.TxPower.VHT40.1Stream.Enable=0
+assign 5G.TxPower.VHT80.1Stream.Enable=0
+assign 5G.TxPower.VHT20.2Stream.Enable=0
+assign 5G.TxPower.VHT40.2Stream.Enable=0
+assign 5G.TxPower.VHT80.2Stream.Enable=0
+assign 5G.TxPower.VHT20.3Stream.Enable=0
+assign 5G.TxPower.VHT40.3Stream.Enable=0
+assign 5G.TxPower.VHT80.3Stream.Enable=0
+
+
+
+assign 2G.TxMASK.HT20.3Stream.Enable=0
+assign 2G.TxMASK.HT40.3Stream.Enable=0
+
+assign 5G.TxMASK.VHT20.1Stream.Enable=0
+assign 5G.TxMASK.VHT40.1Stream.Enable=0
+assign 5G.TxMASK.VHT80.1Stream.Enable=0
+assign 5G.TxMASK.VHT20.2Stream.Enable=0
+assign 5G.TxMASK.VHT40.2Stream.Enable=0
+assign 5G.TxMASK.VHT80.2Stream.Enable=0
+assign 5G.TxMASK.HT20.3Stream.Enable=0
+assign 5G.TxMASK.HT40.3Stream.Enable=0
+assign 5G.TxMASK.VHT20.3Stream.Enable=0
+assign 5G.TxMASK.VHT40.3Stream.Enable=0
+assign 5G.TxMASK.VHT80.3Stream.Enable=0
+
+#___________________________________________
+# EVM test settings 
+#___________________________________________
+assign 2G.TxEVM.HT20.3Stream.Enable=0
+assign 2G.TxEVM.HT40.3Stream.Enable=0
+
+assign 5G.TxEVM.VHT20.1Stream.Enable=0
+assign 5G.TxEVM.VHT40.1Stream.Enable=0
+assign 5G.TxEVM.VHT80.1Stream.Enable=0
+assign 5G.TxEVM.VHT20.2Stream.Enable=0
+assign 5G.TxEVM.VHT40.2Stream.Enable=0
+assign 5G.TxEVM.VHT80.2Stream.Enable=0
+assign 5G.TxEVM.HT20.3Stream.Enable=0
+assign 5G.TxEVM.HT40.3Stream.Enable=0
+assign 5G.TxEVM.VHT20.3Stream.Enable=0
+assign 5G.TxEVM.VHT40.3Stream.Enable=0
+assign 5G.TxEVM.VHT80.3Stream.Enable=0
+
+
+#___________________________________________
+# RX Sensitivity Point test settings
+#___________________________________________
+assign 5G.RxSensPoint.SingleChain.VHT20.Enable=0
+assign 5G.RxSensPoint.SingleChain.VHT40.Enable=0
+assign 5G.RxSensPoint.SingleChain.VHT80.Enable=0
+
+assign 5G.RxSensPoint.VHT20.1Stream.Enable=0
+assign 5G.RxSensPoint.VHT40.1Stream.Enable=0
+assign 5G.RxSensPoint.VHT80.1Stream.Enable=0
+
+
+#___________________________________________
+# RX/TX Throughput test settings
+#___________________________________________
+assign 5G.TxTput.VHT20.1Stream.Enable=0
+assign 5G.TxTput.VHT40.1Stream.Enable=0
+assign 5G.TxTput.VHT80.1Stream.Enable=0
+
+assign 2G.TxEVM.CCK.Enable=0
+assign 2G.TxEVM.Legacy.Enable=1
+assign 2G.TxEVM.HT20.1Stream.Enable=1
+assign 2G.TxEVM.HT40.1Stream.Enable=0
+assign 2G.TxEVM.HT20.2Stream.Enable=0
+assign 2G.TxEVM.HT40.2Stream.Enable=0
+assign 2G.TxEVM.HT20.3Stream.Enable=0
+assign 2G.TxEVM.HT40.3Stream.Enable=0
+

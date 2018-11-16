@@ -1,0 +1,12 @@
+WIFI Calibration test program version: SR2_beta3.1 , Station: T8R1
+---------------------------------------
+Start Time:Mon Oct 08 13:52:49 2018
+Scan MAC address:688F2E470700
+Try to connect NI tester at 192.168.0.100
+                             Success!
+
+Pls Check command.rar is alive
+
+End Time:Mon Oct 08 13:52:57 2018
+total time: 7.80
+Test Result:FAIL

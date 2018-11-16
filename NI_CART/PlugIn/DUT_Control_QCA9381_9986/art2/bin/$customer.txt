@@ -1,0 +1,94 @@
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+7004 ERROR Can't open file "c:\ART2\station_files\pathloss.art" "c:\ART2\station_files\pathloss.art".
+7004 ERROR Can't open file "c:\ART2\station_files\equipment.art" "c:\ART2\station_files\equipment.art".
+7004 ERROR Can't open file "c:\ART2\station_files\directories.art" "c:\ART2\station_files\directories.art".
+7004 ERROR Can't open file "c:\ART2\station_files\pathloss.art" "c:\ART2\station_files\pathloss.art".
+7004 ERROR Can't open file "c:\ART2\station_files\equipment.art" "c:\ART2\station_files\equipment.art".
+7004 ERROR Can't open file "c:\ART2\station_files\directories.art" "c:\ART2\station_files\directories.art".
+7004 ERROR Can't open file "c:\ART2\station_files\pathloss.art" "c:\ART2\station_files\pathloss.art".
+7004 ERROR Can't open file "c:\ART2\station_files\equipment.art" "c:\ART2\station_files\equipment.art".
+7004 ERROR Can't open file "c:\ART2\station_files\directories.art" "c:\ART2\station_files\directories.art".
+5002 ERROR Can't connect to nart[0] on 192.168.0.2:2390.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+7004 ERROR Can't open file "c:\ART2\station_files\pathloss.art" "c:\ART2\station_files\pathloss.art".
+7004 ERROR Can't open file "c:\ART2\station_files\equipment.art" "c:\ART2\station_files\equipment.art".
+7004 ERROR Can't open file "c:\ART2\station_files\directories.art" "c:\ART2\station_files\directories.art".
+7004 ERROR Can't open file "c:\ART2\station_files\pathloss.art" "c:\ART2\station_files\pathloss.art".
+7004 ERROR Can't open file "c:\ART2\station_files\equipment.art" "c:\ART2\station_files\equipment.art".
+7004 ERROR Can't open file "c:\ART2\station_files\directories.art" "c:\ART2\station_files\directories.art".
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3005 ERROR Trouble with equipment setup is 1.
+3002 ERROR Can't load equipment control library from litepoint
+3002 ERROR Can't load equipment control library from litepoint
+3002 ERROR Can't load equipment control library from litepoint
+3002 ERROR Can't load equipment control library from litepoint
+3002 ERROR Can't load equipment control library from litepoint
+3002 ERROR Can't load equipment control library from litepoint
+3005 ERROR Trouble with equipment setup is 1.
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+1001 ERROR Bad value "16.19.24" for parameter "loss".
+7004 ERROR Can't open file ".\..\station_files\pathloss.art" ".\..\station_files\pathloss.art".
+7004 ERROR Can't open file ".\..\station_files\equipment.art" ".\..\station_files\equipment.art".
+7004 ERROR Can't open file ".\..\station_files\directories.art" ".\..\station_files\directories.art".
+7004 ERROR Can't open file ".\..\station_files\pathloss.art" ".\..\station_files\pathloss.art".
+7004 ERROR Can't open file ".\..\station_files\equipment.art" ".\..\station_files\equipment.art".
+7004 ERROR Can't open file ".\..\station_files\directories.art" ".\..\station_files\directories.art".
+7004 ERROR Can't open file ".\..\station_files\pathloss.art" ".\..\station_files\pathloss.art".
+7004 ERROR Can't open file ".\..\station_files\equipment.art" ".\..\station_files\equipment.art".
+7004 ERROR Can't open file ".\..\station_files\directories.art" ".\..\station_files\directories.art".

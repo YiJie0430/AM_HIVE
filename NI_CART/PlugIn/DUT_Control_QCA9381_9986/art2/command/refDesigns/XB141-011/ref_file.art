@@ -1,0 +1,40 @@
+#########################################################################
+# DEVICE NAME: XB141-011     						#
+# FILE TYPE:   ref_file     						#
+#                             						#
+# 									#
+#########################################################################
+#									#
+# The "_loaded" is a variable to be used for error checking		#
+# within the test flow. Valid data values are:				#
+#	0: 	file was never loaded, flow should halt with error 	#
+#		indicating file missing					#
+#	1: 	blank placeholder was loaded, no values will be 	#
+#		applied							#
+#	2:	populated file was loaded and values 			#
+#		will be applied						#
+#									#
+#########################################################################
+
+#########################################################################
+
+        assign ref_file_loaded = 2;
+
+
+
+
+#CTL table setting
+# the following line was commented out during transition to "shift" style flow
+# #refdesigns\XB141-011\xb141_ctl.art
+
+#target power files
+# the following line was commented out during transition to "shift" style flow
+# refdesigns\XB141-011\xb141-011_trg_pwr.art
+
+#Run the 11ac Calibration Setup file
+# the following line was commented out during transition to "shift" style flow
+# refdesigns\XB141-011\setupcal-scheme-11ac.art
+
+# the following line was commented out during transition to "shift" style flow
+# refdesigns\XB141-011\set_AlphaThermTable.art
+

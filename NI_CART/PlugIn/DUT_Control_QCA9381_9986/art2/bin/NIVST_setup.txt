@@ -1,0 +1,284 @@
+; Setup file for NIVST.dll
+
+[General Parameters]
+;SISO/MIMO mode selection (MIMO_MODE=1,SISO;     MIMO_MODE=2:2x2MIMO;       MIMO_MODE=3:3x3MIMO)
+MIMO_MODE = 1
+
+; Number of DUT Chains, default is 3
+DUT_CHAINS =  3
+
+; Enable Debug Text off = 0 (default) or on = 1
+DEBUG_TEXT = 0
+
+; Enable Self-Calibration of NI VSA & VSG during startup off = 0 (default) or on = 1
+CALIBRATE = 0
+
+; Disable VSAs in NI.dll for manual control
+DISABLE_VSAS = 0	
+
+; Disable VSGs in NI.dll for manual control
+DISABLE_VSGS = 0
+
+; Disable Blocker in NI.dll for manual control
+; Remember set the aliase name to "BLOCKER" -- Howard 20130116
+DISABLE_BLOCKER = 1
+
+; VSA 10 MHz Reference (0 = OnBoard Clock, 1 = RefIn, 2 = PXI Clock 10)
+VSA_REFERENCE = 2
+
+[Power Parameters]
+; Trigger for Power Measurement, 0 = disable (default), 1 = enable
+PM_TRIGGER = 1
+; Measure Power With Gap = 1, or No Gap = 0 (default)
+POWER_WITH_GAP = 0
+; Do Power averaging on NI Instrument (0 to disable)
+; if pm = 1 or 2, this will been done by CART.exe -- Howard 20130103
+POWER_AVERAGES = 0
+
+[EVM Parameters]
+; Trigger for EVM Measurement, 0 = disable, 1 = enable (default)
+EVM_TRIGGER = 1
+
+; Use this parameter to disable (0) or enable (1) EVM average by NI -- Howard 20130730
+EVM_STREAM_AVERAGE = 0
+
+; Do EVM averaging on NI Instrument (0 to disable)
+EVM_AVERAGES = 0
+
+; Please set Maximun Symbol Number default to 16 -- Howard 20130130
+MAX_NUM_SYMBOLS = 16
+
+; Channel tracking with full packet estimaiton (disable : 0 ; enable : 1)
+CHANNEL_TRACKING = 0
+; For full packet estimation please select "Preample and Data" ( 0 : Preamble Only ; 1 : Preample and Data )
+CFO_ESTIMATION = 1
+
+; Time Tracking off = 0 or on = 1 (default)
+; aka Symbol Timing Correction - Compensation for sample clock offset
+TIME_TRACKING = 1
+
+; Amplitude Tracking off = 0 (default) or on = 1
+AMPLITUDE_TRACKING = 0
+
+; 802.11ag Phase Tracking standard = 0, Instantaneous = 1, None = 2 or Spline Fit = 3
+PHASE_TRACKING_AG	= 0	
+; 802.11n Phase Tracking standard = 0, Instantaneous = 1, None = 2 or Spline Fit = 3	
+PHASE_TRACKING_N	= 0
+; 802.11ac Phase Tracking standard = 0, Instantaneous = 1, None = 2 or Spline Fit = 3		
+PHASE_TRACKING_AC	= 0	
+
+; Use NI TClk to Measure EVM with the DUT Scrambler On (off = 0 or on = 1), for MIMO please turn on.
+TCLK_FOR_SCRAMBLER = 1
+
+; Set Channel or Stream EVM Results, 0 = Channel EVM, 1 = Stream EVM (default)
+EVM_RESULT = 1
+
+; Use IQ Acquisition Length, 0 = CART (default), 1 = Use Values Below, 2 = Use 1 ms
+EVM_LENGTH_SOURCE = 1
+
+; If EVM_LENGTH_SOURCE = 1, use the following acqusition lengths, in microseconds
+EVM_LENGTH_LEGACY = 100
+EVM_LENGTH_1STREAM = 200
+EVM_LENGTH_2STREAM = 200
+EVM_LENGTH_3STREAM = 200
+;This enviroment doesn't support the Acquisition Length property. Default is 1ms
+;EVM_LENGTH_LEGACY = 1000
+;EVM_LENGTH_1STREAM = 1000
+;EVM_LENGTH_2STREAM = 1000
+;EVM_LENGTH_3STREAM = 1000
+
+; Set the EVM reference file folder for measuring combined EVM -- Howard 20130125
+EVM_FILEDIR = C:/WB342/
+
+[Spectral Mask Parameters]
+; Trigger for Tx Mask Measurement, 0 = disable, 1 = enable (default)
+SA_TRIGGER = 1
+
+NUM_AVERAGES_SA = 1
+
+; Spectral Mask Decimation Factor, no decimation = 1 (default)
+MASK_DECIMATION = 1
+
+; Mask Filter Length, disable = 0 (default)
+MASK_FILTER_LENGTH = 0
+
+; FFT Window Type
+; 0 = Uniform, 1 = Hanning, 2 = Hamming, 3 = Blackman Harris, 4 = Exact Blackman, 5 = Blackman,
+; 6 = Flat Top, 7 = 4-Term Blackman Harris, 8 = 7-Term Blackman Harris (default), 9 = Low Side Lobe
+FFT_WINDOW_TYPE = 8
+
+; Gated Spectrum Mode
+; 0 = RBW Only, 1 = Acquisition Length Only, 2 = RBW & Acquisition Length (default)
+SPECTRUM_MODE = 0
+
+; Set Acquisition Length in usec for 20 and 40 MHz spectrums, set SPECTRUM_MODE = 0 to disable
+ACQ_LENGTH_5MHZ = 200
+ACQ_LENGTH_10MHZ = 200
+ACQ_LENGTH_20MHZ = 200
+ACQ_LENGTH_40MHZ = 200
+ACQ_LENGTH_80MHZ = 75
+
+; Resolution Bandwidth Definition
+; 0 = 3dB, 3 = bin width (default)
+RBW_DEFINITION = 3
+
+; Gated Spectrum Avergaing Type RMS = 0(default), Video = 1
+VBW_FILTER = 1
+
+[Spur Test Parameters]
+;Spectrum acquisition mode resolution bandwidth selection (Hz)
+SPUR_ACQ_RBW 		= 1000000.0 
+
+;Spectrum Acquisition Mode Averaging Mode Selection: No_AVERAGING = 0, RMS_AVERAGING = 1, VECTOR_AVERAGING = 2, PEAK_HOLD_AVERAGING = 3
+SPUR_AVERAGING_MODE = 1
+
+;Number of averaging during RFSA spectrum measurement
+SPUR_Number_OF_AVERAGING = 1
+
+;Spur detect limit in dBm
+SPUR_LIMIT_DBM	= -56
+
+[VSG Parameters]
+; VSG MAC Address Frame Control Selection (default = 0)
+; 0 = 0000 
+; 1 = 0004 (Type --> 01; Subtype --> 1000)
+; 2 = 0008 (Type --> 01; Subtype --> 0000)
+; 3 = 0048 (Type --> 01; Subtype --> 1100)
+FRAME_CONTROL = 2
+
+; Enable or Disable RF Blanking (Enabled = 1)
+RF_BLANKING_ENABLED = 1
+
+; Enable RF Blanking when Power is bigger than and equal to RF_BLANKING_POWER_LIMIT (dBm)
+RF_BLANKING_POWER_LIMIT = -30.0
+
+;Enable or Disable Maximum VSG Output Power Limit (Enable = 1)
+MAX_VSGPOWERLEVEL_ENABLED = 0
+
+; Set buffer before and after IQ burst for "soft" turn-on and turn-off of RF Blanking
+RF_BLANKING_BUFFER = 10
+
+; Reserved for NI, please do not change
+; Enable or Disable Pulse Shaping Filter for OFDM (Enable = 1)
+PULSE_SHAPING_OFDM_ENABLED= 0
+
+; Reserved for NI, please do not change
+; Set Window Length of Pulse Shaping Filter for OFDM in Sec
+PULSE_SHAPING_OFDM_WINDOW_LENGTH=0.000000025
+
+; Reserved for NI, please do not change
+; Set the value of the rolloff factor (alpha), default = 0.5. Valid values are 0.1 to 0.95, inclusive. 
+; PULSE_SHAPING_OFDM_ALPHA=0.5
+PULSE_SHAPING_OFDM_ALPHA=0.6
+
+; Reserved for NI, please do not change
+; Set the pulse-shaping filter type, RECTANGULAR = 0(default), RAISED_COSINE = 1, ROOT_RAISED_COSINE = 2, GAUSSIAN = 3.
+PULSE_SHAPING_OFDM_TYPE=2
+
+; Reserved for NI, please do not change
+; Set the method of applying window to the baseband signal, CENTERED_AT_SYMBOL_BOUNDARY = 0(default), STARTING_AT_SYMBOL_BOUNDARY = 1.
+PULSE_SHAPING_OFDM_METHOD=1
+
+; Reserved for NI, please do not change
+; Set Window Length of Pulse Shaping Filter for 11B in Sec;
+PULSE_SHAPING_11B_WINDOW_LENGTH=0.0000001
+
+; Reserved for NI, please do not change
+; Set the value of the rolloff factor (alpha), default = 0.5. Valid values are 0.1 to 0.95, inclusive. 
+PULSE_SHAPING_11B_ALPHA=0.5 
+
+; Reserved for NI, please do not change
+; Set the pulse-shaping filter type, RECTANGULAR = 0(default), RAISED_COSINE = 1, ROOT_RAISED_COSINE = 2, GAUSSIAN = 3.
+PULSE_SHAPING_11B_TYPE=2
+
+;MAC Header Information, Hex (include "0x" before the value)
+MAC_ADDRESS_1 = 0x010000C0FFEE
+MAC_ADDRESS_2 = 0x202222222202
+MAC_ADDRESS_3 = 0x505555555505
+
+;For VT29, blocker MCS index can't be 9, as this will throw an error.
+VT29_BLKR_MCS_INDEX = 8
+
+; Parameters to select control duty cycle for Blocker and VSGs
+; 0 = Use standard-based idle intervals below
+; 1 = Use rate-based idle intervals below
+; 2 = Use DLL clculated 99% (Tx99) duty cycle idle intervals [NOT YET IMPLEMENTED]
+IDLE_BLKR_SELECT = 1
+IDLE_VSG_SELECT = 1
+
+; Standard-based idle intervals in us (default = 100 for blocker; 1000 for agn vsg; 2000 us for b vsg)
+; These are used if TX99_VSG or TX99_BLKR are set to 0
+IDLE_BLKR_AGN = 50
+IDLE_BLKR_B = 1490
+IDLE_VSG_AGN = 1000
+IDLE_VSG_B = 1500
+
+; Rate-based idle intervals in us (BPSK = 6 Mbps, 1L, MCS0,8,16; 64QAM = 54 Mbps, 2L/2S, MCS7,15,23)
+; These are used if IDLE_BLKR_SELECT and IDLE_VSG_SELECT are set to 1
+IDLE_BLKR_BPSK = 100
+IDLE_BLKR_QPSK = 100
+IDLE_BLKR_QAM16 = 100
+IDLE_BLKR_QAM64 = 100
+IDLE_BLKR_QAM256 = 100
+
+IDLE_VSG_BPSK = 200
+IDLE_VSG_QPSK = 100
+IDLE_VSG_QAM64 = 100
+IDLE_VSG_QAM16 = 100
+IDLE_VSG_QAM256 = 100
+
+
+; VSG Payload Length (default = 1024)
+; Should not over the "pl=1500" setting, otherwise the DUT can recognize the package
+PAYLOAD_LENGTH = 1500
+
+; FEC Coding Type (default 0 = BCC, 1 = LDPC)
+MIMO_FEC_CODING_TYPE = 0
+
+; Maximum Expected Peak to Average Power Ratio for 802.11agn (default = 12 dB)
+MAX_PAPR_AGN = 12
+
+; Maximum Expected Peak to Average Power Ratio for 802.11b (default = 5 dB)
+MAX_PAPR_B = 5
+
+; 802.11n Mapping Matrix Type: 0 = Direct, 1 = Hadamard, 2 = Fourier, 3 = User Defined (default)
+; User Defined is as follows: [1, 1, 1][1, -0.5+0.866i, -0.5-0.866i][1, -0.5-0.866i, -0.5+0.866i]
+; QCA Alex tell me they use Direct Mapping for 2 or 3 stream
+MAPPING_MATRIX = 0
+
+; 802.11n PLCP Frame Format: 0 = Mixed (default), 1 = Greenfield
+PLCP_FRAME_FORMAT = 0
+
+; Blocker VSG Payload Length, -1 for whole duration (default = -1)
+BLOCKER_PAYLOAD = -1
+
+; Extra Blocker Path Loss in units of dB*10 (default = 0 dB*10)
+BLOCKER_PATH_LOSS = 0
+
+; VSG Legacy Preamble Scaling on = 1 (default) or off = 0
+; Please enable this parameter, and this will increase QCA DUT Sensitivity performance at low powre like under -70dBm f23 
+PREAMBLE_SCALING = 1
+
+; VSG LO Frequency Offset in MHz (default = 0 MHz) DOES NOT APPLY TO AC
+VSG_LO_OFFSET = 0
+
+; Blocker LO Frequency Offset in MHz (default = 0 MHz)
+BLOCKER_LO_OFFSET = 0
+
+;11AC/11N Frequency Offsets In MHz APPLIES ONLY TO 11AC (and 11N for Peregrine design)
+; Should not set the frequency offset for ART2 4.4, because the rule is complicated. -- Howard 20130123
+; Use differente frequency offset parameter for TX/RX on 802.11n/ac 40MHz & 80MHz. -- Howard 20130319
+NART11AC_TX_FREQ_OFFSET_40 = 0
+NART11AC_RX_FREQ_OFFSET_40 = 0
+NART11AC_TX_FREQ_OFFSET_80 = 0
+NART11AC_RX_FREQ_OFFSET_80 = 0
+;Remember to add 10MHz for AR9331 11n HT40 test, but for 11n HT20 should not need to add any offset. -- Howard 20130102
+NART11N_TX_FREQ_OFFSET_40 = 10 
+NART11N_RX_FREQ_OFFSET_40 = 0 
+
+;11AC/11N Frequency Offsets for BLocker In MHz APPLIES ONLY TO 11AC (and 11N for Peregrine design)
+NART11AC_FREQ_OFFSET_BLKR_40 = 0
+NART11AC_FREQ_OFFSET_BLKR_80 = 0
+NART11N_FREQ_OFFSET_BLKR_40 = 0
+
+ 

@@ -1,0 +1,707 @@
+< Connect Server >
+
+	Test Time: 14 (ms)
+	Error message: No error.
+
+----------WLAN Initialize----------
+
+	Test Time: 1008 (ms)
+	Error message: No error.
+
+< WLAN Global Settings >
+	Pathloss
+	0		2410		19.01
+	0		2420		18.88
+	0		2430		19.03
+	0		2440		19.01
+	0		2450		19.11
+	0		2460		19.07
+	0		2470		19.04
+	0		2480		19.05
+	0		2490		19.00
+	0		2500		18.99
+	1		2410		20.19
+	1		2420		20.15
+	1		2430		20.10
+	1		2440		20.24
+	1		2450		20.15
+	1		2460		20.18
+	1		2470		20.30
+	1		2480		20.22
+	1		2490		20.15
+	1		2500		20.17
+	0		5180		22.55
+	0		5200		22.43
+	0		5220		22.49
+	0		5240		22.92
+	0		5260		22.47
+	0		5280		23.62
+	0		5300		23.60
+	0		5320		22.64
+	0		5340		22.72
+	0		5360		22.71
+	0		5380		22.81
+	0		5400		22.65
+	0		5420		23.32
+	0		5440		23.49
+	0		5460		23.46
+	0		5480		23.48
+	0		5500		22.71
+	0		5520		22.86
+	0		5540		23.56
+	0		5560		23.63
+	0		5580		23.09
+	0		5600		22.94
+	0		5620		24.06
+	0		5640		23.06
+	0		5660		23.46
+	0		5680		23.44
+	0		5700		22.98
+	0		5720		23.38
+	0		5740		23.20
+	0		5760		22.85
+	0		5780		24.29
+	0		5800		24.06
+	0		5820		23.55
+	1		5180		23.28
+	1		5200		22.71
+	1		5220		22.80
+	1		5240		23.22
+	1		5260		23.59
+	1		5280		22.85
+	1		5300		22.96
+	1		5320		22.82
+	1		5340		23.11
+	1		5360		23.15
+	1		5380		23.63
+	1		5400		23.01
+	1		5420		23.15
+	1		5440		23.06
+	1		5460		22.71
+	1		5480		22.92
+	1		5500		22.78
+	1		5520		23.04
+	1		5540		23.90
+	1		5560		23.11
+	1		5580		23.94
+	1		5600		23.29
+	1		5620		24.25
+	1		5640		24.29
+	1		5660		24.32
+	1		5680		24.17
+	1		5700		23.31
+	1		5720		24.39
+	1		5740		23.31
+	1		5760		23.19
+	1		5780		23.43
+	1		5800		24.74
+	1		5820		23.31
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN PowerCalibration >
+
+	Skipped
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN FreqCalibration >
+
+	Skipped
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 EVM= -38.26784 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Power= 9.69225 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.7804 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 589 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 EVM= -34.90182 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Power= 10.14236 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.6888 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 474 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 EVM= -30.86941 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Power= 10.24842 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.7052 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 470 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 EVM= -31.46684 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Power= 9.71123 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.6184 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 513 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 EVM= -31.06725 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Power= 9.7662 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.6030 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 486 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 EVM= -33.17687 dB ( -60 ~ -25 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Power= 9.48535 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.6234 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 463 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -36.64968 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 9.69773 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.6321 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 466 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -33.97498 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 9.97589 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.6051 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 470 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -31.0516 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 10.66459 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.5489 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 470 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -32.477 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 9.68076 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.5135 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 467 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -32.46836 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 9.74562 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.4628 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 464 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -31.87674 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 9.6057 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.4776 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 466 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -34.88671 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 10.19085 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.5208 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 476 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -31.78283 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 10.1827 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.4463 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 475 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -32.44595 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 10.04198 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.4477 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 476 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -32.6964 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.22589 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.4509 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 476 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -32.5009 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.30395 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.4209 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 487 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -33.13243 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.45883 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.4535 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 474 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1, Power -65.00 PER= 1.2000 ( 0 ~ 10 )	%  Pass
+	Test Time: 513 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1, Power -65.00 PER= 0.4000 ( 0 ~ 10 )	%  Pass
+	Test Time: 516 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , OFDM_54M, ANT_1, Power -65.00 PER= 1.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 510 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2, Power -65.00 PER= 0.2000 ( 0 ~ 10 )	%  Pass
+	Test Time: 514 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2, Power -65.00 PER= 1.1000 ( 0 ~ 10 )	%  Pass
+	Test Time: 517 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , OFDM_54M, ANT_2, Power -65.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 509 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1, Power -63.00 PER= 1.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 500 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1, Power -63.00 PER= 2.1000 ( 0 ~ 10 )	%  Pass
+	Test Time: 500 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_20_MCS7, ANT_1, Power -63.00 PER= 1.8000 ( 0 ~ 10 )	%  Pass
+	Test Time: 502 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2, Power -63.00 PER= 0.2000 ( 0 ~ 10 )	%  Pass
+	Test Time: 500 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2, Power -63.00 PER= 2.6000 ( 0 ~ 10 )	%  Pass
+	Test Time: 500 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_20_MCS7, ANT_2, Power -63.00 PER= 1.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 495 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1, Power -61.00 PER= 3.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 403 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1, Power -61.00 PER= 2.7000 ( 0 ~ 10 )	%  Pass
+	Test Time: 392 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1, Power -61.00 PER= 1.4000 ( 0 ~ 10 )	%  Pass
+	Test Time: 403 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2, Power -61.00 PER= 2.3000 ( 0 ~ 10 )	%  Pass
+	Test Time: 399 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2, Power -61.00 PER= 1.9000 ( 0 ~ 10 )	%  Pass
+	Test Time: 401 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2, Power -61.00 PER= 1.1000 ( 0 ~ 10 )	%  Pass
+	Test Time: 398 (ms)
+	Error message: No error.
+
+< WLAN Write Command >
+	
+	Test Time: 0 (ms)
+	Error message: No error.
+
+----------WLAN Close----------
+
+	Test Time: 23 (ms)
+	Error message: No error.
+
+----------WLAN Initialize----------
+
+	Test Time: 9 (ms)
+	Error message: No error.
+
+< WLAN Global Settings >
+	Pathloss
+	0		2410		19.01
+	0		2420		18.88
+	0		2430		19.03
+	0		2440		19.01
+	0		2450		19.11
+	0		2460		19.07
+	0		2470		19.04
+	0		2480		19.05
+	0		2490		19.00
+	0		2500		18.99
+	1		2410		20.19
+	1		2420		20.15
+	1		2430		20.10
+	1		2440		20.24
+	1		2450		20.15
+	1		2460		20.18
+	1		2470		20.30
+	1		2480		20.22
+	1		2490		20.15
+	1		2500		20.17
+	0		5180		22.55
+	0		5200		22.43
+	0		5220		22.49
+	0		5240		22.92
+	0		5260		22.47
+	0		5280		23.62
+	0		5300		23.60
+	0		5320		22.64
+	0		5340		22.72
+	0		5360		22.71
+	0		5380		22.81
+	0		5400		22.65
+	0		5420		23.32
+	0		5440		23.49
+	0		5460		23.46
+	0		5480		23.48
+	0		5500		22.71
+	0		5520		22.86
+	0		5540		23.56
+	0		5560		23.63
+	0		5580		23.09
+	0		5600		22.94
+	0		5620		24.06
+	0		5640		23.06
+	0		5660		23.46
+	0		5680		23.44
+	0		5700		22.98
+	0		5720		23.38
+	0		5740		23.20
+	0		5760		22.85
+	0		5780		24.29
+	0		5800		24.06
+	0		5820		23.55
+	1		5180		23.28
+	1		5200		22.71
+	1		5220		22.80
+	1		5240		23.22
+	1		5260		23.59
+	1		5280		22.85
+	1		5300		22.96
+	1		5320		22.82
+	1		5340		23.11
+	1		5360		23.15
+	1		5380		23.63
+	1		5400		23.01
+	1		5420		23.15
+	1		5440		23.06
+	1		5460		22.71
+	1		5480		22.92
+	1		5500		22.78
+	1		5520		23.04
+	1		5540		23.90
+	1		5560		23.11
+	1		5580		23.94
+	1		5600		23.29
+	1		5620		24.25
+	1		5640		24.29
+	1		5660		24.32
+	1		5680		24.17
+	1		5700		23.31
+	1		5720		24.39
+	1		5740		23.31
+	1		5760		23.19
+	1		5780		23.43
+	1		5800		24.74
+	1		5820		23.31
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN FreqCalibration >
+
+	Skipped
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN PowerCalibration >
+
+	Skipped
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 EVM= -40.84332 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Power= 9.76648 dBm ( 12 ~ 16 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Freq Error= -1.6969 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1764 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 EVM= -37.24892 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Power= 13.48471 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Freq Error= -1.6032 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1761 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 EVM= -39.90812 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Power= 9.05465 dBm ( 12 ~ 16 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Freq Error= -1.5375 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1763 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 EVM= -30.44276 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Power= 11.61531 dBm ( 12 ~ 16 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Freq Error= -1.5215 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1760 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 EVM= -32.06193 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Power= 4.68804 dBm ( 12 ~ 16 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Freq Error= -1.5350 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1558 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 EVM= -30.90087 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Power= 0.45046 dBm ( 12 ~ 16 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Freq Error= -1.5306 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1558 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -40.48319 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 8.88577 dBm ( 11 ~ 15 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -1.5770 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1499 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -39.48205 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 8.59495 dBm ( 11 ~ 15 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -1.5900 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -31.68833 dB ( -60 ~ -32 )	dB 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 6.31269 dBm ( 11 ~ 15 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -1.5696 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -38.0685 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 12.29826 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -1.6409 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1500 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -31.09809 dB ( -60 ~ -32 )	dB 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 12.47365 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -1.6655 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1497 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -30.42071 dB ( -60 ~ -32 )	dB 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 3.8641 dBm ( 11 ~ 15 )	dBm 	Fail
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -1.7059 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power -51.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 582 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power -51.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 581 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power -51.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 593 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power -51.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 582 (ms)
+	Error message: No error.
+
+< WLAN Write Command >
+	
+	Test Time: 0 (ms)
+	Error message: No error.
+
+----------WLAN Close----------
+
+	Test Time: 103 (ms)
+	Error message: No error.
+
+
+
+Start Time: 2018-09-21 18:22:50
+Stop Time: 2018-09-21 18:23:39
+Total Test Time: 49 (Sec)
+Test Done:FAIL

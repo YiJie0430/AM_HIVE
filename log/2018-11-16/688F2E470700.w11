@@ -1,0 +1,75 @@
+WIFI Calibration test program version: SR2_beta3.1 , Station: T8R1
+---------------------------------------
+Start Time:Fri Nov 16 19:10:53 2018
+Scan MAC address:688F2E470700
+wait dut boot...........
+root@xe1-plume-rdk-broadband-hitron-nvram:~# pmf -e
+Device is already in factory mode. Exit operation
+root@xe1-plume-rdk-broadband-hitron-nvram:~#
+Software Version: root@xe1-plume-rdk-broadband-hitron-nvram:~# cat /.version
+2.0.0-0-stable-20181115011227 (ubuntu@jvm-ch2h-yocto-705
+
+NrmSetup Start...
+Dload client_dec.key.:
+root@xe1-plume-rdk-broadband-hitron-nvram:~# cd /var && tftp -g 192.168.1.10 -r 
+client_dec.key
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+Dload client.pem.:
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# cd /var && tftp -g 192.168.1.10 
+-r client.pem
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+BT.UUID:
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -u -w 0xfe71
+echo end of stdOUT buffer $?
+WRITE OP: 0xfe71
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+Eth.MAC:
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -m -w 68:8F:2E:47:07:00
+echo end of stdOUT buffer $?
+params: 68:8F:2E:47:07:00
+WRITE OP: 68:8F:2E:47:07:00
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+SN:
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -s -w 123456789012
+echo end of stdOUT buffer $?
+WRITE OP: 123456789012
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+Dload ca.pem.:
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# cd /var && tftp -g 192.168.1.10 
+-r ca.pem
+echo end of stdOUT buffer $?
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -f -a
+echo end of stdOUT buffer $?
+Error, file ca.pem exists in flash
+Error writing certs
+NOTOK, errno 1
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -f -r
+echo end of stdOUT buffer $?
+Success, file /var/certs/ca.pem read!
+Success, file /var/certs/client.pem read!
+Success, file /var/certs/client_dec.key read!
+Finished, no more certificates found!
+OK
+root@xe1-plume-rdk-broadband-hitron-nvram:/var#
+Source File MD5:
+
+MD5sums 1.2 freeware for Win9x/ME/NT/2000/XP+
+Copyright (C) 2001-2005 Jem Berkes - http://www.pc-tools.net/
+Type md5sums -h for help
+
+[Path] / filename                              MD5 sum
+-------------------------------------------------------------------------------
+[D:\Python2\HitronProject\hive-2200_latest\HIVE-2200\HIVE-2200_NI_SR3_beta1.1\certificate\]
+ca.pem                                         0ef4d26bb553555acd81b986d711e16f
+client.pem                                     d098e843073da06a00813a4f8224bb19
+client_dec.key                                 52e470bfe2ee209451a3f2cda4808845
+
+ca.pem MD5 check: 0ef4d26bb553555acd81b986d711e16f
+client.pem MD5 check: d098e843073da06a00813a4f8224bb19
+client_dec.key MD5 check: 52e470bfe2ee209451a3f2cda4808845
+NrmSetup Failed : BT UUID failed: 2G chain0: ffffffff (!= 0xfe71)
+
+End Time:Fri Nov 16 19:11:11 2018
+total time: 18.06
+Test Result:FAIL

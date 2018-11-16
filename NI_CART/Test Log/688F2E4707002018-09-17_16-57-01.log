@@ -1,0 +1,1773 @@
+< Connect Server >
+
+	Test Time: 13 (ms)
+	Error message: No error.
+
+----------WLAN Initialize----------
+
+	Test Time: 384 (ms)
+	Error message: No error.
+
+< WLAN Global Settings >
+	Pathloss
+	0		2410		19.01
+	0		2420		18.88
+	0		2430		19.03
+	0		2440		19.01
+	0		2450		19.11
+	0		2460		19.07
+	0		2470		19.04
+	0		2480		19.05
+	0		2490		19.00
+	0		2500		18.99
+	1		2410		20.19
+	1		2420		20.15
+	1		2430		20.10
+	1		2440		20.24
+	1		2450		20.15
+	1		2460		20.18
+	1		2470		20.30
+	1		2480		20.22
+	1		2490		20.15
+	1		2500		20.17
+	0		5180		22.55
+	0		5200		22.43
+	0		5220		22.49
+	0		5240		22.92
+	0		5260		22.47
+	0		5280		23.62
+	0		5300		23.60
+	0		5320		22.64
+	0		5340		22.72
+	0		5360		22.71
+	0		5380		22.81
+	0		5400		22.65
+	0		5420		23.32
+	0		5440		23.49
+	0		5460		23.46
+	0		5480		23.48
+	0		5500		22.71
+	0		5520		22.86
+	0		5540		23.56
+	0		5560		23.63
+	0		5580		23.09
+	0		5600		22.94
+	0		5620		24.06
+	0		5640		23.06
+	0		5660		23.46
+	0		5680		23.44
+	0		5700		22.98
+	0		5720		23.38
+	0		5740		23.20
+	0		5760		22.85
+	0		5780		24.29
+	0		5800		24.06
+	0		5820		23.55
+	1		5180		23.28
+	1		5200		22.71
+	1		5220		22.80
+	1		5240		23.22
+	1		5260		23.59
+	1		5280		22.85
+	1		5300		22.96
+	1		5320		22.82
+	1		5340		23.11
+	1		5360		23.15
+	1		5380		23.63
+	1		5400		23.01
+	1		5420		23.15
+	1		5440		23.06
+	1		5460		22.71
+	1		5480		22.92
+	1		5500		22.78
+	1		5520		23.04
+	1		5540		23.90
+	1		5560		23.11
+	1		5580		23.94
+	1		5600		23.29
+	1		5620		24.25
+	1		5640		24.29
+	1		5660		24.32
+	1		5680		24.17
+	1		5700		23.31
+	1		5720		24.39
+	1		5740		23.31
+	1		5760		23.19
+	1		5780		23.43
+	1		5800		24.74
+	1		5820		23.31
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN PowerCalibration >
+	frequency	txchain	txgain	power	pcorr	voltage	temp
+	2412            1            60       1       0              8.5
+	2412            1            73       0       0              14.3
+	2412            2            60       1       0              9.7
+	2412            2            70       3       0              13.5
+	2437            1            60       1       0              9.9
+	2437            1            70       3       0              13.8
+	2437            2            60       1       0              8.8
+	2437            2            72       1       0              13.5
+	2472            1            60       1       0              9.9
+	2472            1            70       3       0              13.3
+	2472            2            60       1       0              7.9
+	2472            2            74       3       0              13.5
+	
+	Test Time: 2192 (ms)
+	Error message: No error.
+
+< WLAN FreqCalibration >
+	Xtal Cal
+	 frequency        factual            ppm       cap
+	      2442         2441.975222        -10           64
+	      2442         2442.001040          0           32
+	
+	Test Time: 318 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 EVM= -38.89213 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Power= 9.48828 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.4900 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 503 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 EVM= -35.07852 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Power= 9.85592 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.3676 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 476 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 EVM= -30.1656 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Power= 10.519 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Freq Error= 0.3384 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 469 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 EVM= -31.46597 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Power= 10.19733 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.4419 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 491 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 EVM= -30.10287 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Power= 9.85879 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.3489 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 472 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 EVM= -34.33539 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Power= 9.45009 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Freq Error= 0.3690 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , OFDM_54M, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 485 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -37.13464 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 9.53629 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.2956 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 471 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -33.0265 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 9.92276 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.3733 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 480 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 EVM= -30.72597 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Power= 10.5653 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Freq Error= 0.2909 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 451 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -32.59295 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 10.12859 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.3431 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 446 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -32.73631 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 10.01154 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.3192 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 450 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 EVM= -33.17544 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Power= 9.43135 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Freq Error= 0.2734 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2462 , HT_20_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 501 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -32.92445 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 10.10655 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.3376 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 456 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -33.20596 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 9.94201 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.2631 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 458 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 EVM= -32.54526 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Power= 9.77481 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Freq Error= 0.2825 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 458 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -33.6001 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.69549 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.2515 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 537 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -32.67832 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.65939 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.2485 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 461 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 EVM= -33.2514 dB ( -60 ~ -20 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Power= 9.72194 dBm ( 7 ~ 11 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Freq Error= 0.1996 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2,  Power 9.00 Spec Mask=  0 % ( 0 ~ 5 )	% 	Pass
+	Test Time: 458 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_1, Power -70.00 PER= 7.8000 ( 0 ~ 60 )	%  Pass
+	Test Time: 492 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_1, Power -70.00 PER= 9.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 618 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , OFDM_54M, ANT_1, Power -70.00 PER= 5.4000 ( 0 ~ 60 )	%  Pass
+	Test Time: 530 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , OFDM_54M, ANT_2, Power -70.00 PER= 4.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 492 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , OFDM_54M, ANT_2, Power -70.00 PER= 5.9000 ( 0 ~ 60 )	%  Pass
+	Test Time: 493 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , OFDM_54M, ANT_2, Power -70.00 PER= 1.2000 ( 0 ~ 60 )	%  Pass
+	Test Time: 495 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_1, Power -66.00 PER= 8.9000 ( 0 ~ 60 )	%  Pass
+	Test Time: 475 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_1, Power -66.00 PER= 15.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 482 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_20_MCS7, ANT_1, Power -66.00 PER= 6.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 473 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2412 , HT_20_MCS7, ANT_2, Power -66.00 PER= 2.0000 ( 0 ~ 60 )	%  Pass
+	Test Time: 676 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_20_MCS7, ANT_2, Power -66.00 PER= 13.8000 ( 0 ~ 60 )	%  Pass
+	Test Time: 462 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_20_MCS7, ANT_2, Power -66.00 PER= 2.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 473 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_1, Power -63.00 PER= 10.3000 ( 0 ~ 60 )	%  Pass
+	Test Time: 383 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_1, Power -63.00 PER= 14.9000 ( 0 ~ 60 )	%  Pass
+	Test Time: 384 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_1, Power -63.00 PER= 4.1000 ( 0 ~ 60 )	%  Pass
+	Test Time: 388 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2422 , HT_40_MCS7, ANT_2, Power -63.00 PER= 9.5000 ( 0 ~ 60 )	%  Pass
+	Test Time: 374 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2437 , HT_40_MCS7, ANT_2, Power -63.00 PER= 16.1000 ( 0 ~ 60 )	%  Pass
+	Test Time: 377 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=2452 , HT_40_MCS7, ANT_2, Power -63.00 PER= 4.9000 ( 0 ~ 60 )	%  Pass
+	Test Time: 374 (ms)
+	Error message: No error.
+
+< WLAN Write Command >
+	7508 CONTROL BEGIN get all
+7510 INFO start get all
+7510 INFO                          ----------------------                           
+7510 INFO  =======================| AR9300 CAL STRUCTURE |==========================
+7510 INFO  |                       -----------------------                         |
+7510 INFO  |                                   |                                   |
+7510 INFO  | CAL Version              2        |  Template Version        2        |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | MacAddress: 0x68:8F:2E:47:07:01                                       |
+7510 INFO  | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00           |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | RegDomain 1              0x0000   |  RegDomain 2             0x001F   |
+7510 INFO  | TX Mask                  0x3      |  RX Mask                 0x3      |
+7510 INFO  | OpFlags: 5GHz            0        |  2GHz                    1        |
+7510 INFO  | Disable 5G HT20          0        |  Disable 2G HT20         0        |
+7510 INFO  | Disable 5G HT40          0        |  Disable 2G HT40         0        |
+7510 INFO  | Big Endian               0        |  Wake On Wireless        0        |
+7510 INFO  | RF Silent                0x0      |  Bluetooth               0x0      |
+7510 INFO  | Device Cap               0        |  DeviceType              AP       |
+7510 INFO  | Tuning Caps(0,1):        (20,00)  |  Enbl Compensation       0x7d     |
+7510 INFO  | GPIO eepWrite Enable     3        |  GPIO rxBand Selection   0xff     |
+7510 INFO  | GPIO wlan Disable        0        |  GPIO wlan LED           0x08     |
+7510 INFO  | txrxGain                 0x10     |  pwrTableOffset          0        |
+7510 INFO  | internal regulator     0x633ec176                                     |
+7510 INFO  |                                                                       |
+7510 INFO  |===========================5GHz Modal Header===========================|
+7510 INFO  |                                                                       |
+7510 INFO  | Antenna Common        0x00000110  |  Antenna Common2      0x00022222  |
+7510 INFO  | Ant Chain 0              0x0000   |  Ant Chain 1              0x0000  |
+7510 INFO  | Ant Chain 2              0x0000   |                                   |
+7510 INFO  | xatten 1DB Ch0 Low       0        |  xatten 1DB Ch1 Low       0       |
+7510 INFO  | xatten 1DB Ch2 Low       0        |  xatten 1DB Ch0           0       |
+7510 INFO  | xatten 1DB Ch1           0        |  xatten 1DB Ch2           0       |
+7510 INFO  | xatten 1DB Ch0 High      0        |  xatten 1DB Ch1 High      0       |
+7510 INFO  | xatten 1DB Ch2 high      0        |                                   |
+7510 INFO  | xatten 1Margin0 Low      0        |  xatten 1Margin1 Low      0       |
+7510 INFO  | xatten 1Margin2 Low      0        |  xatten 1Margin0          0       |
+7510 INFO  | xatten 1Margin1          0        |  xatten 1Margin2          0       |
+7510 INFO  | xatten 1Margin0 High     0        |  xatten 1Margin1 High     0       |
+7510 INFO  | xatten 1Margin2 High     0        |                                   |
+7510 INFO  | TempL Slope             28        |  Temp Slope             68        |
+7510 INFO  | TempH Slope              0        |  Volt Slope              0        |
+7510 INFO  | Spur Channels:           4800, 4800, 4800, 4800, 4800                 |
+7510 INFO  | MinCCAPwr Thres0       -1         |  MinCCAPwrThres1         0        |
+7510 INFO  | MinCCAPwr Thres2        0         |                                   |
+7510 INFO  | Obdboffst_aux1_0        0         |  Obdboffst_aux1_1         0       |
+7510 INFO  | Obdboffst_aux1_2        0         |                                   |
+7510 INFO  | Obdboffst_aux2_0        0         |  Obdboffst_aux2_1         0       |
+7510 INFO  | Obdboffst_aux2_2        0         |                                   |
+7510 INFO  | xpa_bias_lvl             0        |  txFrame2DataStart        e       |
+7510 INFO  | tx_frame_to_pa_on        e        |  txClip                   3       |
+7510 INFO  | antenna_gain             0        |  switchSettling           2d      |
+7510 INFO  | adcDesiredSize          -30       |  txEndToXpaOff            0       |
+7510 INFO  | txEndToRxOn              2        |  tx_frame_to_xpa_on       e       |
+7510 INFO  | thresh62                 28       |                                   |
+7510 INFO  | paprd_rate_mask_ht20     cf0e0e0  |  paprd_rate_mask_ht40   6cf0e0e0  |
+7510 INFO  | switchcomspdt                  0  |  xLNA_bias_strength            0  |
+7510 INFO  |                                   |                                   |
+7510 INFO  |=================5G Power Calibration Information =====================|
+7510 INFO  |                                                                       |
+7510 INFO  |                   Chain 0                          Chain 1            |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                     rxNF rxNF rx  |                   rxNF rxNF   rx  |
+7510 INFO  | Freq  Pwr Volt Temp  Cal pwr Temp |     Pwr Volt Temp  Cal  pwr  Temp |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | 5180    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5220    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5320    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5400    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5500    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5600    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5725    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  | 5825    0   0    0  0000    0   0 |       0   0    0  0000    0    0  |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                   Chain 2                                             |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | 5180    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5220    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5320    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5400    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5500    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5600    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5725    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 5825    0   0    0  0000    0   0 |                                   |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                                                                       |
+7510 INFO  |===========================5G Target Powers============================|
+7510 INFO  |                                                                       |
+7510 INFO  | OFDM  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | 6-24  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  |  36   | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  |  48   | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  |  54   |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | HT20  | 5180  | 5240  | 5320  | 5500  | 5700  | 5745  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | MCS0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS1  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS2  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS3  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS4  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS5  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS6  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS7  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS8  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS9  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS10 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS11 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS12 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS13 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS14 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS15 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS16 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS17 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS18 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS19 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS20 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS21 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS22 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS23 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | HT40  | 5180  | 5240  | 5320  | 5500  | 5700  | 5745  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | MCS0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS1  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS2  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS3  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS4  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS5  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS6  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS7  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS8  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS9  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS10 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS11 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS12 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS13 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS14 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS15 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS16 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS17 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS18 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS19 | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  | 10.0  |
+7510 INFO  | MCS20 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS21 |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |  5.0  |
+7510 INFO  | MCS22 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  | MCS23 |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |  0.0  |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  |=======================Test Group Band Edge Power======================|
+7510 INFO  |                                                                       |
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x10 [ 11A base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x16 [ 5G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x18 [ 5G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x40 [ 11A base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x46 [ 5G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x48 [ 5G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x30 [ 11A base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x36 [ 5G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x38 [ 5G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 5180  | 5220  | 5320  | 5400  | 5500  | 5600  | 5725  | 5825  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  |===========================2GHz Modal Header===========================|
+7510 INFO  |                                                                       |
+7510 INFO  | Antenna Common        0x00000000  |  Antenna Common2      0x00011111  |
+7510 INFO  | Ant Chain 0              0x0014   |  Ant Chain 1              0x0014  |
+7510 INFO  | Ant Chain 2              0x0014   |                                   |
+7510 INFO  | xatten 1DB Ch0           e        |  xatten 1DB Ch1           e       |
+7510 INFO  | xatten 1DB Ch2           e        |                                   |
+7510 INFO  | xatten 1Margin0          8        |  xatten 1Margin1          8       |
+7510 INFO  | xatten 1Margin2          8        |                                   |
+7510 INFO  | Temp Slope            28, 28,  0  |  Volt Slope               0       |
+7510 INFO  | Spur Channels:           2437, 2500, 2300, 2300, 2300                 |
+7510 INFO  | MinCCAPwr Thres0       -1         |  MinCCAPwrThres1         0        |
+7510 INFO  | MinCCAPwr Thres2        0         |                                   |
+7510 INFO  | Obdboffst_aux1_0        2         |  Obdboffst_aux1_1         4       |
+7510 INFO  | Obdboffst_aux1_2        2         |                                   |
+7510 INFO  | Obdboffst_aux2_0        6         |  Obdboffst_aux2_1         6       |
+7510 INFO  | Obdboffst_aux2_2        6         |                                   |
+7510 INFO  | xpa_bias_lvl             f        |  txFrame2DataStart        e       |
+7510 INFO  | tx_frame_to_pa_on        e        |  txClip                   3       |
+7510 INFO  | antenna_gain             0        |  switchSettling           2c      |
+7510 INFO  | adcDesiredSize          -30       |  txEndToXpaOff            0       |
+7510 INFO  | txEndToRxOn              2        |  tx_frame_to_xpa_on       e       |
+7510 INFO  | thresh62                 28       |                                   |
+7510 INFO  | paprd_rate_mask_ht20      f0f0f0  |  paprd_rate_mask_ht40     f0f0f0  |
+7510 INFO  | switchcomspdt                  0  |  xLNA_bias_strength            0  |
+7510 INFO  |                                   |                                   |
+7510 INFO  |=================2G Power Calibration Information =====================|
+7510 INFO  |                                                                       |
+7510 INFO  |                   Chain 0                          Chain 1            |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                     rxNF rxNF rx  |                   rxNF rxNF   rx  |
+7510 INFO  | Freq  Pwr Volt Temp  Cal pwr Temp |     Pwr Volt Temp  Cal  pwr  Temp |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | 2412  -30   0  149  0000    0   0 |     -29   0  144  0000    0    0  |
+7510 INFO  | 2437  -28   0  147  0000    0   0 |     -31   0  144  0000    0    0  |
+7510 INFO  | 2472  -29   0  146  0000    0   0 |     -33   0  142  0000    0    0  |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                   Chain 2                                             |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  | 2412    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 2437    0   0    0  0000    0   0 |                                   |
+7510 INFO  | 2472    0   0    0  0000    0   0 |                                   |
+7510 INFO  |-----------------------------------------------------------------------|
+7510 INFO  |                                                                       |
+7510 INFO  |===========================2G Target Powers============================|
+7510 INFO  |                                                                       |
+7510 INFO  | OFDM   |        2412        |        2437        |        2472        |
+7510 INFO  |========|====================|====================|====================|
+7510 INFO  | 6-24   |        18.0        |        18.0        |        18.0        |
+7510 INFO  |  36    |        14.0        |        14.0        |        14.0        |
+7510 INFO  |  48    |        12.0        |        12.0        |        12.0        |
+7510 INFO  |  54    |        11.0        |        11.0        |        11.0        |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CCK    |        2412        |        2472        |====================|
+7510 INFO  |========|====================|====================|====================|
+7510 INFO  | 1L-5L  |        18.0        |        18.0        |====================|
+7510 INFO  |  5S    |        18.0        |        18.0        |====================|
+7510 INFO  |  11L   |        16.0        |        16.0        |====================|
+7510 INFO  |  11S   |        15.0        |        15.0        |====================|
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | HT20   |        2412        |        2437        |        2472        |
+7510 INFO  |========|====================|====================|====================|
+7510 INFO  | MCS0   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS1   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS2   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS3   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS4   |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS5   |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS6   |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS7   |         9.0        |         9.0        |         9.0        |
+7510 INFO  | MCS8   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS9   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS10  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS11  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS12  |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS13  |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS14  |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS15  |         9.0        |         9.0        |         9.0        |
+7510 INFO  | MCS16  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS17  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS18  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS19  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS20  |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS21  |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS22  |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS23  |         9.0        |         9.0        |         9.0        |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | HT40   |        2412        |        2437        |        2472        |
+7510 INFO  |========|====================|====================|====================|
+7510 INFO  | MCS0   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS1   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS2   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS3   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS4   |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS5   |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS6   |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS7   |         9.0        |         9.0        |         9.0        |
+7510 INFO  | MCS8   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS9   |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS10  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS11  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS12  |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS13  |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS14  |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS15  |         9.0        |         9.0        |         9.0        |
+7510 INFO  | MCS16  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS17  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS18  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS19  |        18.0        |        18.0        |        18.0        |
+7510 INFO  | MCS20  |        17.0        |        17.0        |        17.0        |
+7510 INFO  | MCS21  |        13.0        |        13.0        |        13.0        |
+7510 INFO  | MCS22  |        11.0        |        11.0        |        11.0        |
+7510 INFO  | MCS23  |         9.0        |         9.0        |         9.0        |
+7510 INFO  |========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  |=======================Test Group Band Edge Power======================|
+7510 INFO  |                                                                       |
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x11 [ 11B base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x12 [ 11G base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x15 [ 2G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x17 [ 2G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x41 [ 11B base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x42 [ 11G base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x45 [ 2G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x47 [ 2G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x31 [ 11B base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x32 [ 11G base mode ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x35 [ 2G HT20 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7510 INFO  |                                                                       |
+7510 INFO  | CTL: 0x37 [ 2G HT40 mode  ]                                           |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | edge  | 2412  | 2417  | 2472  | 2484  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | power | 30.0  | 30.0  | 30.0  | 30.0  |
+7510 INFO  |=======|=======|=======|=======|=======|=======|=======|=======|=======|
+7510 INFO  | flag  |   0   |   1   |   0   |   1   |
+7510 INFO  =========================================================================
+7506 CONTROL DONE get all
+
+	Test Time: 1010 (ms)
+	Error message: No error.
+
+----------WLAN Close----------
+
+	Test Time: 51 (ms)
+	Error message: No error.
+
+----------WLAN Initialize----------
+
+	Test Time: 9 (ms)
+	Error message: No error.
+
+< WLAN Global Settings >
+	Pathloss
+	0		2410		19.01
+	0		2420		18.88
+	0		2430		19.03
+	0		2440		19.01
+	0		2450		19.11
+	0		2460		19.07
+	0		2470		19.04
+	0		2480		19.05
+	0		2490		19.00
+	0		2500		18.99
+	1		2410		20.19
+	1		2420		20.15
+	1		2430		20.10
+	1		2440		20.24
+	1		2450		20.15
+	1		2460		20.18
+	1		2470		20.30
+	1		2480		20.22
+	1		2490		20.15
+	1		2500		20.17
+	0		5180		22.55
+	0		5200		22.43
+	0		5220		22.49
+	0		5240		22.92
+	0		5260		22.47
+	0		5280		23.62
+	0		5300		23.60
+	0		5320		22.64
+	0		5340		22.72
+	0		5360		22.71
+	0		5380		22.81
+	0		5400		22.65
+	0		5420		23.32
+	0		5440		23.49
+	0		5460		23.46
+	0		5480		23.48
+	0		5500		22.71
+	0		5520		22.86
+	0		5540		23.56
+	0		5560		23.63
+	0		5580		23.09
+	0		5600		22.94
+	0		5620		24.06
+	0		5640		23.06
+	0		5660		23.46
+	0		5680		23.44
+	0		5700		22.98
+	0		5720		23.38
+	0		5740		23.20
+	0		5760		22.85
+	0		5780		24.29
+	0		5800		24.06
+	0		5820		23.55
+	1		5180		23.28
+	1		5200		22.71
+	1		5220		22.80
+	1		5240		23.22
+	1		5260		23.59
+	1		5280		22.85
+	1		5300		22.96
+	1		5320		22.82
+	1		5340		23.11
+	1		5360		23.15
+	1		5380		23.63
+	1		5400		23.01
+	1		5420		23.15
+	1		5440		23.06
+	1		5460		22.71
+	1		5480		22.92
+	1		5500		22.78
+	1		5520		23.04
+	1		5540		23.90
+	1		5560		23.11
+	1		5580		23.94
+	1		5600		23.29
+	1		5620		24.25
+	1		5640		24.29
+	1		5660		24.32
+	1		5680		24.17
+	1		5700		23.31
+	1		5720		24.39
+	1		5740		23.31
+	1		5760		23.19
+	1		5780		23.43
+	1		5800		24.74
+	1		5820		23.31
+
+	Test Time: 0 (ms)
+	Error message: No error.
+
+< WLAN FreqCalibration >
+	Xtal Calibration Result
+	FreqErr:-15.47   ChannelFreq: 5500    txchainMask: 1    capValue:32
+	FreqErr:-1.46   ChannelFreq: 5500    txchainMask: 1    capValue:16
+	Test Time: 1243 (ms)
+	Error message: No error.
+
+< WLAN PowerCalibration >
+	Power Calibration Result
+	Goal: 4    MeasPwr:-0.42   gain: 2   ChannelFreq: 5180    txchainMask: 1
+	Goal: 5    MeasPwr:0.32   gain: 3   ChannelFreq: 5180    txchainMask: 1
+	Goal: 6    MeasPwr:1.14   gain: 4   ChannelFreq: 5180    txchainMask: 1
+	Goal: 7    MeasPwr:2.02   gain: 5   ChannelFreq: 5180    txchainMask: 1
+	Goal: 8    MeasPwr:2.86   gain: 6   ChannelFreq: 5180    txchainMask: 1
+	Goal: 9    MeasPwr:3.68   gain: 7   ChannelFreq: 5180    txchainMask: 1
+	Goal: 10    MeasPwr:4.55   gain: 8   ChannelFreq: 5180    txchainMask: 1
+	Goal: 11    MeasPwr:5.36   gain: 9   ChannelFreq: 5180    txchainMask: 1
+	Goal: 12    MeasPwr:6.23   gain: 10   ChannelFreq: 5180    txchainMask: 1
+	Goal: 13    MeasPwr:7.46   gain: 11   ChannelFreq: 5180    txchainMask: 1
+	Goal: 14    MeasPwr:8.27   gain: 12   ChannelFreq: 5180    txchainMask: 1
+	Goal: 15    MeasPwr:9.19   gain: 13   ChannelFreq: 5180    txchainMask: 1
+	Goal: 16    MeasPwr:10.17   gain: 14   ChannelFreq: 5180    txchainMask: 1
+	Goal: 17    MeasPwr:11.03   gain: 15   ChannelFreq: 5180    txchainMask: 1
+	Goal: 18    MeasPwr:11.99   gain: 16   ChannelFreq: 5180    txchainMask: 1
+	Goal: 19    MeasPwr:12.85   gain: 17   ChannelFreq: 5180    txchainMask: 1
+	Goal: 20    MeasPwr:13.70   gain: 18   ChannelFreq: 5180    txchainMask: 1
+	Goal: 21    MeasPwr:14.59   gain: 19   ChannelFreq: 5180    txchainMask: 1
+	Goal: 22    MeasPwr:15.49   gain: 20   ChannelFreq: 5180    txchainMask: 1
+	Goal: 23    MeasPwr:16.41   gain: 21   ChannelFreq: 5180    txchainMask: 1
+	Goal: 24    MeasPwr:17.34   gain: 22   ChannelFreq: 5180    txchainMask: 1
+	Goal: 25    MeasPwr:19.70   gain: 24   ChannelFreq: 5180    txchainMask: 1
+	Goal: 25    MeasPwr:21.34   gain: 26   ChannelFreq: 5180    txchainMask: 1
+	Goal: 25    MeasPwr:22.06   gain: 27   ChannelFreq: 5180    txchainMask: 1
+	Goal: 4    MeasPwr:3.39   gain: 2   ChannelFreq: 5180    txchainMask: 2
+	Goal: 5    MeasPwr:4.10   gain: 3   ChannelFreq: 5180    txchainMask: 2
+	Goal: 6    MeasPwr:4.92   gain: 4   ChannelFreq: 5180    txchainMask: 2
+	Goal: 7    MeasPwr:5.73   gain: 5   ChannelFreq: 5180    txchainMask: 2
+	Goal: 8    MeasPwr:6.56   gain: 6   ChannelFreq: 5180    txchainMask: 2
+	Goal: 9    MeasPwr:7.43   gain: 7   ChannelFreq: 5180    txchainMask: 2
+	Goal: 10    MeasPwr:8.31   gain: 8   ChannelFreq: 5180    txchainMask: 2
+	Goal: 11    MeasPwr:9.23   gain: 9   ChannelFreq: 5180    txchainMask: 2
+	Goal: 12    MeasPwr:10.17   gain: 10   ChannelFreq: 5180    txchainMask: 2
+	Goal: 13    MeasPwr:11.23   gain: 11   ChannelFreq: 5180    txchainMask: 2
+	Goal: 14    MeasPwr:12.09   gain: 12   ChannelFreq: 5180    txchainMask: 2
+	Goal: 15    MeasPwr:13.01   gain: 13   ChannelFreq: 5180    txchainMask: 2
+	Goal: 16    MeasPwr:13.88   gain: 14   ChannelFreq: 5180    txchainMask: 2
+	Goal: 17    MeasPwr:14.77   gain: 15   ChannelFreq: 5180    txchainMask: 2
+	Goal: 18    MeasPwr:15.55   gain: 16   ChannelFreq: 5180    txchainMask: 2
+	Goal: 19    MeasPwr:16.44   gain: 17   ChannelFreq: 5180    txchainMask: 2
+	Goal: 20    MeasPwr:17.28   gain: 18   ChannelFreq: 5180    txchainMask: 2
+	Goal: 21    MeasPwr:18.16   gain: 19   ChannelFreq: 5180    txchainMask: 2
+	Goal: 22    MeasPwr:18.97   gain: 20   ChannelFreq: 5180    txchainMask: 2
+	Goal: 23    MeasPwr:19.84   gain: 21   ChannelFreq: 5180    txchainMask: 2
+	Goal: 24    MeasPwr:20.66   gain: 22   ChannelFreq: 5180    txchainMask: 2
+	Goal: 25    MeasPwr:22.36   gain: 24   ChannelFreq: 5180    txchainMask: 2
+	Goal: 4    MeasPwr:-1.27   gain: 2   ChannelFreq: 5210    txchainMask: 1
+	Goal: 5    MeasPwr:-0.53   gain: 3   ChannelFreq: 5210    txchainMask: 1
+	Goal: 6    MeasPwr:0.25   gain: 4   ChannelFreq: 5210    txchainMask: 1
+	Goal: 7    MeasPwr:1.03   gain: 5   ChannelFreq: 5210    txchainMask: 1
+	Goal: 8    MeasPwr:1.93   gain: 6   ChannelFreq: 5210    txchainMask: 1
+	Goal: 9    MeasPwr:2.83   gain: 7   ChannelFreq: 5210    txchainMask: 1
+	Goal: 10    MeasPwr:3.68   gain: 8   ChannelFreq: 5210    txchainMask: 1
+	Goal: 11    MeasPwr:4.57   gain: 9   ChannelFreq: 5210    txchainMask: 1
+	Goal: 12    MeasPwr:5.44   gain: 10   ChannelFreq: 5210    txchainMask: 1
+	Goal: 13    MeasPwr:6.61   gain: 11   ChannelFreq: 5210    txchainMask: 1
+	Goal: 14    MeasPwr:7.51   gain: 12   ChannelFreq: 5210    txchainMask: 1
+	Goal: 15    MeasPwr:8.37   gain: 13   ChannelFreq: 5210    txchainMask: 1
+	Goal: 16    MeasPwr:9.28   gain: 14   ChannelFreq: 5210    txchainMask: 1
+	Goal: 17    MeasPwr:10.19   gain: 15   ChannelFreq: 5210    txchainMask: 1
+	Goal: 18    MeasPwr:11.20   gain: 16   ChannelFreq: 5210    txchainMask: 1
+	Goal: 19    MeasPwr:12.03   gain: 17   ChannelFreq: 5210    txchainMask: 1
+	Goal: 20    MeasPwr:12.87   gain: 18   ChannelFreq: 5210    txchainMask: 1
+	Goal: 21    MeasPwr:13.75   gain: 19   ChannelFreq: 5210    txchainMask: 1
+	Goal: 22    MeasPwr:14.67   gain: 20   ChannelFreq: 5210    txchainMask: 1
+	Goal: 23    MeasPwr:15.56   gain: 21   ChannelFreq: 5210    txchainMask: 1
+	Goal: 24    MeasPwr:16.52   gain: 22   ChannelFreq: 5210    txchainMask: 1
+	Goal: 25    MeasPwr:18.89   gain: 24   ChannelFreq: 5210    txchainMask: 1
+	Goal: 25    MeasPwr:20.56   gain: 26   ChannelFreq: 5210    txchainMask: 1
+	Goal: 25    MeasPwr:21.35   gain: 27   ChannelFreq: 5210    txchainMask: 1
+	Goal: 4    MeasPwr:1.19   gain: 2   ChannelFreq: 5210    txchainMask: 2
+	Goal: 5    MeasPwr:2.02   gain: 3   ChannelFreq: 5210    txchainMask: 2
+	Goal: 6    MeasPwr:2.77   gain: 4   ChannelFreq: 5210    txchainMask: 2
+	Goal: 7    MeasPwr:3.65   gain: 5   ChannelFreq: 5210    txchainMask: 2
+	Goal: 8    MeasPwr:4.48   gain: 6   ChannelFreq: 5210    txchainMask: 2
+	Goal: 9    MeasPwr:5.37   gain: 7   ChannelFreq: 5210    txchainMask: 2
+	Goal: 10    MeasPwr:6.18   gain: 8   ChannelFreq: 5210    txchainMask: 2
+	Goal: 11    MeasPwr:7.11   gain: 9   ChannelFreq: 5210    txchainMask: 2
+	Goal: 12    MeasPwr:7.99   gain: 10   ChannelFreq: 5210    txchainMask: 2
+	Goal: 13    MeasPwr:9.17   gain: 11   ChannelFreq: 5210    txchainMask: 2
+	Goal: 14    MeasPwr:10.01   gain: 12   ChannelFreq: 5210    txchainMask: 2
+	Goal: 15    MeasPwr:10.91   gain: 13   ChannelFreq: 5210    txchainMask: 2
+	Goal: 14    MeasPwr:10.02   gain: 12   ChannelFreq: 5210    txchainMask: 2
+	Goal: 13    MeasPwr:9.10   gain: 11   ChannelFreq: 5210    txchainMask: 2
+	Goal: 14    MeasPwr:10.03   gain: 12   ChannelFreq: 5210    txchainMask: 2
+	Goal: 15    MeasPwr:10.87   gain: 13   ChannelFreq: 5210    txchainMask: 2
+	Goal: 14    MeasPwr:9.95   gain: 12   ChannelFreq: 5210    txchainMask: 2
+	Goal: 15    MeasPwr:10.85   gain: 13   ChannelFreq: 5210    txchainMask: 2
+	Goal: 16    MeasPwr:11.81   gain: 14   ChannelFreq: 5210    txchainMask: 2
+	Goal: 17    MeasPwr:12.66   gain: 15   ChannelFreq: 5210    txchainMask: 2
+	Goal: 18    MeasPwr:13.45   gain: 16   ChannelFreq: 5210    txchainMask: 2
+	Goal: 19    MeasPwr:14.33   gain: 17   ChannelFreq: 5210    txchainMask: 2
+	Goal: 20    MeasPwr:15.17   gain: 18   ChannelFreq: 5210    txchainMask: 2
+	Goal: 21    MeasPwr:16.02   gain: 19   ChannelFreq: 5210    txchainMask: 2
+	Goal: 22    MeasPwr:16.88   gain: 20   ChannelFreq: 5210    txchainMask: 2
+	Goal: 23    MeasPwr:17.78   gain: 21   ChannelFreq: 5210    txchainMask: 2
+	Goal: 24    MeasPwr:18.61   gain: 22   ChannelFreq: 5210    txchainMask: 2
+	Goal: 25    MeasPwr:20.65   gain: 24   ChannelFreq: 5210    txchainMask: 2
+	Goal: 25    MeasPwr:21.92   gain: 26   ChannelFreq: 5210    txchainMask: 2
+	Goal: 25    MeasPwr:22.61   gain: 27   ChannelFreq: 5210    txchainMask: 2
+	Goal: 4    MeasPwr:-0.60   gain: 2   ChannelFreq: 5290    txchainMask: 1
+	Goal: 5    MeasPwr:0.13   gain: 3   ChannelFreq: 5290    txchainMask: 1
+	Goal: 6    MeasPwr:0.95   gain: 4   ChannelFreq: 5290    txchainMask: 1
+	Goal: 7    MeasPwr:1.84   gain: 5   ChannelFreq: 5290    txchainMask: 1
+	Goal: 8    MeasPwr:2.62   gain: 6   ChannelFreq: 5290    txchainMask: 1
+	Goal: 9    MeasPwr:3.51   gain: 7   ChannelFreq: 5290    txchainMask: 1
+	Goal: 10    MeasPwr:4.42   gain: 8   ChannelFreq: 5290    txchainMask: 1
+	Goal: 11    MeasPwr:5.25   gain: 9   ChannelFreq: 5290    txchainMask: 1
+	Goal: 12    MeasPwr:6.14   gain: 10   ChannelFreq: 5290    txchainMask: 1
+	Goal: 13    MeasPwr:7.39   gain: 11   ChannelFreq: 5290    txchainMask: 1
+	Goal: 14    MeasPwr:8.25   gain: 12   ChannelFreq: 5290    txchainMask: 1
+	Goal: 15    MeasPwr:9.16   gain: 13   ChannelFreq: 5290    txchainMask: 1
+	Goal: 16    MeasPwr:10.04   gain: 14   ChannelFreq: 5290    txchainMask: 1
+	Goal: 17    MeasPwr:10.96   gain: 15   ChannelFreq: 5290    txchainMask: 1
+	Goal: 18    MeasPwr:11.89   gain: 16   ChannelFreq: 5290    txchainMask: 1
+	Goal: 19    MeasPwr:12.73   gain: 17   ChannelFreq: 5290    txchainMask: 1
+	Goal: 20    MeasPwr:13.61   gain: 18   ChannelFreq: 5290    txchainMask: 1
+	Goal: 21    MeasPwr:14.52   gain: 19   ChannelFreq: 5290    txchainMask: 1
+	Goal: 22    MeasPwr:15.44   gain: 20   ChannelFreq: 5290    txchainMask: 1
+	Goal: 23    MeasPwr:16.28   gain: 21   ChannelFreq: 5290    txchainMask: 1
+	Goal: 24    MeasPwr:17.16   gain: 22   ChannelFreq: 5290    txchainMask: 1
+	Goal: 25    MeasPwr:19.59   gain: 24   ChannelFreq: 5290    txchainMask: 1
+	Goal: 25    MeasPwr:21.19   gain: 26   ChannelFreq: 5290    txchainMask: 1
+	Goal: 25    MeasPwr:21.96   gain: 27   ChannelFreq: 5290    txchainMask: 1
+	Goal: 4    MeasPwr:-1.10   gain: 2   ChannelFreq: 5290    txchainMask: 2
+	Goal: 5    MeasPwr:-0.33   gain: 3   ChannelFreq: 5290    txchainMask: 2
+	Goal: 6    MeasPwr:0.46   gain: 4   ChannelFreq: 5290    txchainMask: 2
+	Goal: 7    MeasPwr:1.29   gain: 5   ChannelFreq: 5290    txchainMask: 2
+	Goal: 8    MeasPwr:2.15   gain: 6   ChannelFreq: 5290    txchainMask: 2
+	Goal: 9    MeasPwr:3.02   gain: 7   ChannelFreq: 5290    txchainMask: 2
+	Goal: 10    MeasPwr:3.96   gain: 8   ChannelFreq: 5290    txchainMask: 2
+	Goal: 11    MeasPwr:4.81   gain: 9   ChannelFreq: 5290    txchainMask: 2
+	Goal: 12    MeasPwr:5.67   gain: 10   ChannelFreq: 5290    txchainMask: 2
+	Goal: 13    MeasPwr:6.94   gain: 11   ChannelFreq: 5290    txchainMask: 2
+	Goal: 14    MeasPwr:7.76   gain: 12   ChannelFreq: 5290    txchainMask: 2
+	Goal: 15    MeasPwr:8.66   gain: 13   ChannelFreq: 5290    txchainMask: 2
+	Goal: 16    MeasPwr:9.60   gain: 14   ChannelFreq: 5290    txchainMask: 2
+	Goal: 17    MeasPwr:10.46   gain: 15   ChannelFreq: 5290    txchainMask: 2
+	Goal: 18    MeasPwr:11.22   gain: 16   ChannelFreq: 5290    txchainMask: 2
+	Goal: 19    MeasPwr:12.08   gain: 17   ChannelFreq: 5290    txchainMask: 2
+	Goal: 20    MeasPwr:12.91   gain: 18   ChannelFreq: 5290    txchainMask: 2
+	Goal: 21    MeasPwr:13.81   gain: 19   ChannelFreq: 5290    txchainMask: 2
+	Goal: 22    MeasPwr:14.74   gain: 20   ChannelFreq: 5290    txchainMask: 2
+	Goal: 23    MeasPwr:15.59   gain: 21   ChannelFreq: 5290    txchainMask: 2
+	Goal: 24    MeasPwr:16.45   gain: 22   ChannelFreq: 5290    txchainMask: 2
+	Goal: 25    MeasPwr:18.52   gain: 24   ChannelFreq: 5290    txchainMask: 2
+	Goal: 25    MeasPwr:20.16   gain: 26   ChannelFreq: 5290    txchainMask: 2
+	Goal: 25    MeasPwr:20.80   gain: 27   ChannelFreq: 5290    txchainMask: 2
+	Goal: 4    MeasPwr:2.36   gain: 2   ChannelFreq: 5370    txchainMask: 1
+	Goal: 5    MeasPwr:3.07   gain: 3   ChannelFreq: 5370    txchainMask: 1
+	Goal: 6    MeasPwr:3.86   gain: 4   ChannelFreq: 5370    txchainMask: 1
+	Goal: 7    MeasPwr:4.73   gain: 5   ChannelFreq: 5370    txchainMask: 1
+	Goal: 8    MeasPwr:5.58   gain: 6   ChannelFreq: 5370    txchainMask: 1
+	Goal: 9    MeasPwr:6.47   gain: 7   ChannelFreq: 5370    txchainMask: 1
+	Goal: 10    MeasPwr:7.34   gain: 8   ChannelFreq: 5370    txchainMask: 1
+	Goal: 11    MeasPwr:8.22   gain: 9   ChannelFreq: 5370    txchainMask: 1
+	Goal: 12    MeasPwr:9.15   gain: 10   ChannelFreq: 5370    txchainMask: 1
+	Goal: 13    MeasPwr:10.38   gain: 11   ChannelFreq: 5370    txchainMask: 1
+	Goal: 14    MeasPwr:11.24   gain: 12   ChannelFreq: 5370    txchainMask: 1
+	Goal: 15    MeasPwr:12.14   gain: 13   ChannelFreq: 5370    txchainMask: 1
+	Goal: 16    MeasPwr:13.07   gain: 14   ChannelFreq: 5370    txchainMask: 1
+	Goal: 17    MeasPwr:13.87   gain: 15   ChannelFreq: 5370    txchainMask: 1
+	Goal: 18    MeasPwr:14.85   gain: 16   ChannelFreq: 5370    txchainMask: 1
+	Goal: 19    MeasPwr:15.71   gain: 17   ChannelFreq: 5370    txchainMask: 1
+	Goal: 20    MeasPwr:16.54   gain: 18   ChannelFreq: 5370    txchainMask: 1
+	Goal: 21    MeasPwr:17.43   gain: 19   ChannelFreq: 5370    txchainMask: 1
+	Goal: 22    MeasPwr:18.23   gain: 20   ChannelFreq: 5370    txchainMask: 1
+	Goal: 23    MeasPwr:19.06   gain: 21   ChannelFreq: 5370    txchainMask: 1
+	Goal: 24    MeasPwr:19.90   gain: 22   ChannelFreq: 5370    txchainMask: 1
+	Goal: 25    MeasPwr:21.75   gain: 24   ChannelFreq: 5370    txchainMask: 1
+	Goal: 25    MeasPwr:22.85   gain: 26   ChannelFreq: 5370    txchainMask: 1
+	Goal: 4    MeasPwr:-2.88   gain: 2   ChannelFreq: 5370    txchainMask: 2
+	Goal: 5    MeasPwr:-2.09   gain: 3   ChannelFreq: 5370    txchainMask: 2
+	Goal: 6    MeasPwr:-1.34   gain: 4   ChannelFreq: 5370    txchainMask: 2
+	Goal: 7    MeasPwr:-0.47   gain: 5   ChannelFreq: 5370    txchainMask: 2
+	Goal: 8    MeasPwr:0.42   gain: 6   ChannelFreq: 5370    txchainMask: 2
+	Goal: 9    MeasPwr:1.25   gain: 7   ChannelFreq: 5370    txchainMask: 2
+	Goal: 10    MeasPwr:2.17   gain: 8   ChannelFreq: 5370    txchainMask: 2
+	Goal: 11    MeasPwr:3.04   gain: 9   ChannelFreq: 5370    txchainMask: 2
+	Goal: 12    MeasPwr:3.96   gain: 10   ChannelFreq: 5370    txchainMask: 2
+	Goal: 13    MeasPwr:5.20   gain: 11   ChannelFreq: 5370    txchainMask: 2
+	Goal: 14    MeasPwr:6.00   gain: 12   ChannelFreq: 5370    txchainMask: 2
+	Goal: 15    MeasPwr:6.93   gain: 13   ChannelFreq: 5370    txchainMask: 2
+	Goal: 16    MeasPwr:7.84   gain: 14   ChannelFreq: 5370    txchainMask: 2
+	Goal: 17    MeasPwr:8.75   gain: 15   ChannelFreq: 5370    txchainMask: 2
+	Goal: 18    MeasPwr:9.53   gain: 16   ChannelFreq: 5370    txchainMask: 2
+	Goal: 19    MeasPwr:10.35   gain: 17   ChannelFreq: 5370    txchainMask: 2
+	Goal: 20    MeasPwr:11.20   gain: 18   ChannelFreq: 5370    txchainMask: 2
+	Goal: 21    MeasPwr:12.09   gain: 19   ChannelFreq: 5370    txchainMask: 2
+	Goal: 22    MeasPwr:12.97   gain: 20   ChannelFreq: 5370    txchainMask: 2
+	Goal: 23    MeasPwr:13.80   gain: 21   ChannelFreq: 5370    txchainMask: 2
+	Goal: 24    MeasPwr:14.77   gain: 22   ChannelFreq: 5370    txchainMask: 2
+	Goal: 25    MeasPwr:16.94   gain: 24   ChannelFreq: 5370    txchainMask: 2
+	Goal: 25    MeasPwr:18.66   gain: 26   ChannelFreq: 5370    txchainMask: 2
+	Goal: 25    MeasPwr:19.51   gain: 27   ChannelFreq: 5370    txchainMask: 2
+	Goal: 4    MeasPwr:-1.18   gain: 2   ChannelFreq: 5500    txchainMask: 1
+	Goal: 5    MeasPwr:-0.48   gain: 3   ChannelFreq: 5500    txchainMask: 1
+	Goal: 6    MeasPwr:0.34   gain: 4   ChannelFreq: 5500    txchainMask: 1
+	Goal: 7    MeasPwr:1.21   gain: 5   ChannelFreq: 5500    txchainMask: 1
+	Goal: 8    MeasPwr:2.05   gain: 6   ChannelFreq: 5500    txchainMask: 1
+	Goal: 9    MeasPwr:2.87   gain: 7   ChannelFreq: 5500    txchainMask: 1
+	Goal: 10    MeasPwr:3.83   gain: 8   ChannelFreq: 5500    txchainMask: 1
+	Goal: 11    MeasPwr:4.70   gain: 9   ChannelFreq: 5500    txchainMask: 1
+	Goal: 12    MeasPwr:5.65   gain: 10   ChannelFreq: 5500    txchainMask: 1
+	Goal: 13    MeasPwr:6.86   gain: 11   ChannelFreq: 5500    txchainMask: 1
+	Goal: 14    MeasPwr:7.69   gain: 12   ChannelFreq: 5500    txchainMask: 1
+	Goal: 13    MeasPwr:6.84   gain: 11   ChannelFreq: 5500    txchainMask: 1
+	Goal: 14    MeasPwr:7.69   gain: 12   ChannelFreq: 5500    txchainMask: 1
+	Goal: 15    MeasPwr:8.59   gain: 13   ChannelFreq: 5500    txchainMask: 1
+	Goal: 16    MeasPwr:9.50   gain: 14   ChannelFreq: 5500    txchainMask: 1
+	Goal: 17    MeasPwr:10.39   gain: 15   ChannelFreq: 5500    txchainMask: 1
+	Goal: 18    MeasPwr:11.30   gain: 16   ChannelFreq: 5500    txchainMask: 1
+	Goal: 19    MeasPwr:12.09   gain: 17   ChannelFreq: 5500    txchainMask: 1
+	Goal: 20    MeasPwr:12.97   gain: 18   ChannelFreq: 5500    txchainMask: 1
+	Goal: 21    MeasPwr:13.80   gain: 19   ChannelFreq: 5500    txchainMask: 1
+	Goal: 22    MeasPwr:14.69   gain: 20   ChannelFreq: 5500    txchainMask: 1
+	Goal: 23    MeasPwr:15.49   gain: 21   ChannelFreq: 5500    txchainMask: 1
+	Goal: 24    MeasPwr:16.36   gain: 22   ChannelFreq: 5500    txchainMask: 1
+	Goal: 25    MeasPwr:18.45   gain: 24   ChannelFreq: 5500    txchainMask: 1
+	Goal: 25    MeasPwr:19.71   gain: 26   ChannelFreq: 5500    txchainMask: 1
+	Goal: 25    MeasPwr:20.29   gain: 27   ChannelFreq: 5500    txchainMask: 1
+	Goal: 4    MeasPwr:-5.85   gain: 2   ChannelFreq: 5500    txchainMask: 2
+	Goal: 5    MeasPwr:-5.03   gain: 3   ChannelFreq: 5500    txchainMask: 2
+	Goal: 6    MeasPwr:-4.18   gain: 4   ChannelFreq: 5500    txchainMask: 2
+	Goal: 7    MeasPwr:-3.33   gain: 5   ChannelFreq: 5500    txchainMask: 2
+	Goal: 8    MeasPwr:-2.47   gain: 6   ChannelFreq: 5500    txchainMask: 2
+	Goal: 9    MeasPwr:-1.58   gain: 7   ChannelFreq: 5500    txchainMask: 2
+	Goal: 10    MeasPwr:-0.73   gain: 8   ChannelFreq: 5500    txchainMask: 2
+	Goal: 11    MeasPwr:0.20   gain: 9   ChannelFreq: 5500    txchainMask: 2
+	Goal: 12    MeasPwr:1.09   gain: 10   ChannelFreq: 5500    txchainMask: 2
+	Goal: 13    MeasPwr:2.28   gain: 11   ChannelFreq: 5500    txchainMask: 2
+	Goal: 14    MeasPwr:3.21   gain: 12   ChannelFreq: 5500    txchainMask: 2
+	Goal: 15    MeasPwr:4.11   gain: 13   ChannelFreq: 5500    txchainMask: 2
+	Goal: 16    MeasPwr:5.02   gain: 14   ChannelFreq: 5500    txchainMask: 2
+	Goal: 17    MeasPwr:5.92   gain: 15   ChannelFreq: 5500    txchainMask: 2
+	Goal: 18    MeasPwr:6.65   gain: 16   ChannelFreq: 5500    txchainMask: 2
+	Goal: 19    MeasPwr:7.46   gain: 17   ChannelFreq: 5500    txchainMask: 2
+	Goal: 20    MeasPwr:8.29   gain: 18   ChannelFreq: 5500    txchainMask: 2
+	Goal: 21    MeasPwr:9.17   gain: 19   ChannelFreq: 5500    txchainMask: 2
+	Goal: 22    MeasPwr:10.05   gain: 20   ChannelFreq: 5500    txchainMask: 2
+	Goal: 23    MeasPwr:10.96   gain: 21   ChannelFreq: 5500    txchainMask: 2
+	Goal: 24    MeasPwr:11.84   gain: 22   ChannelFreq: 5500    txchainMask: 2
+	Goal: 25    MeasPwr:14.00   gain: 24   ChannelFreq: 5500    txchainMask: 2
+	Goal: 25    MeasPwr:15.73   gain: 26   ChannelFreq: 5500    txchainMask: 2
+	Goal: 25    MeasPwr:16.60   gain: 27   ChannelFreq: 5500    txchainMask: 2
+	Goal: 4    MeasPwr:0.94   gain: 2   ChannelFreq: 5510    txchainMask: 1
+	Goal: 5    MeasPwr:1.76   gain: 3   ChannelFreq: 5510    txchainMask: 1
+	Goal: 6    MeasPwr:2.53   gain: 4   ChannelFreq: 5510    txchainMask: 1
+	Goal: 7    MeasPwr:3.35   gain: 5   ChannelFreq: 5510    txchainMask: 1
+	Goal: 8    MeasPwr:4.29   gain: 6   ChannelFreq: 5510    txchainMask: 1
+	Goal: 9    MeasPwr:5.10   gain: 7   ChannelFreq: 5510    txchainMask: 1
+	Goal: 10    MeasPwr:5.95   gain: 8   ChannelFreq: 5510    txchainMask: 1
+	Goal: 11    MeasPwr:6.87   gain: 9   ChannelFreq: 5510    txchainMask: 1
+	Goal: 12    MeasPwr:7.80   gain: 10   ChannelFreq: 5510    txchainMask: 1
+	Goal: 13    MeasPwr:9.00   gain: 11   ChannelFreq: 5510    txchainMask: 1
+	Goal: 12    MeasPwr:7.82   gain: 10   ChannelFreq: 5510    txchainMask: 1
+	Goal: 13    MeasPwr:8.95   gain: 11   ChannelFreq: 5510    txchainMask: 1
+	Goal: 14    MeasPwr:9.91   gain: 12   ChannelFreq: 5510    txchainMask: 1
+	Goal: 15    MeasPwr:10.77   gain: 13   ChannelFreq: 5510    txchainMask: 1
+	Goal: 16    MeasPwr:11.70   gain: 14   ChannelFreq: 5510    txchainMask: 1
+	Goal: 17    MeasPwr:12.54   gain: 15   ChannelFreq: 5510    txchainMask: 1
+	Goal: 18    MeasPwr:13.49   gain: 16   ChannelFreq: 5510    txchainMask: 1
+	Goal: 19    MeasPwr:14.23   gain: 17   ChannelFreq: 5510    txchainMask: 1
+	Goal: 20    MeasPwr:15.09   gain: 18   ChannelFreq: 5510    txchainMask: 1
+	Goal: 21    MeasPwr:15.90   gain: 19   ChannelFreq: 5510    txchainMask: 1
+	Goal: 22    MeasPwr:16.72   gain: 20   ChannelFreq: 5510    txchainMask: 1
+	Goal: 23    MeasPwr:17.43   gain: 21   ChannelFreq: 5510    txchainMask: 1
+	Goal: 24    MeasPwr:18.25   gain: 22   ChannelFreq: 5510    txchainMask: 1
+	Goal: 25    MeasPwr:19.95   gain: 24   ChannelFreq: 5510    txchainMask: 1
+	Goal: 25    MeasPwr:20.97   gain: 26   ChannelFreq: 5510    txchainMask: 1
+	Goal: 25    MeasPwr:21.37   gain: 27   ChannelFreq: 5510    txchainMask: 1
+	Goal: 4    MeasPwr:-4.74   gain: 2   ChannelFreq: 5510    txchainMask: 2
+	Goal: 5    MeasPwr:-3.95   gain: 3   ChannelFreq: 5510    txchainMask: 2
+	Goal: 6    MeasPwr:-3.12   gain: 4   ChannelFreq: 5510    txchainMask: 2
+	Goal: 7    MeasPwr:-2.27   gain: 5   ChannelFreq: 5510    txchainMask: 2
+	Goal: 8    MeasPwr:-1.38   gain: 6   ChannelFreq: 5510    txchainMask: 2
+	Goal: 9    MeasPwr:-0.50   gain: 7   ChannelFreq: 5510    txchainMask: 2
+	Goal: 10    MeasPwr:0.36   gain: 8   ChannelFreq: 5510    txchainMask: 2
+	Goal: 11    MeasPwr:1.32   gain: 9   ChannelFreq: 5510    txchainMask: 2
+	Goal: 12    MeasPwr:2.20   gain: 10   ChannelFreq: 5510    txchainMask: 2
+	Goal: 13    MeasPwr:3.40   gain: 11   ChannelFreq: 5510    txchainMask: 2
+	Goal: 14    MeasPwr:4.24   gain: 12   ChannelFreq: 5510    txchainMask: 2
+	Goal: 15    MeasPwr:5.13   gain: 13   ChannelFreq: 5510    txchainMask: 2
+	Goal: 16    MeasPwr:6.04   gain: 14   ChannelFreq: 5510    txchainMask: 2
+	Goal: 17    MeasPwr:7.02   gain: 15   ChannelFreq: 5510    txchainMask: 2
+	Goal: 18    MeasPwr:7.71   gain: 16   ChannelFreq: 5510    txchainMask: 2
+	Goal: 19    MeasPwr:8.57   gain: 17   ChannelFreq: 5510    txchainMask: 2
+	Goal: 20    MeasPwr:9.37   gain: 18   ChannelFreq: 5510    txchainMask: 2
+	Goal: 21    MeasPwr:10.20   gain: 19   ChannelFreq: 5510    txchainMask: 2
+	Goal: 22    MeasPwr:11.10   gain: 20   ChannelFreq: 5510    txchainMask: 2
+	Goal: 23    MeasPwr:12.01   gain: 21   ChannelFreq: 5510    txchainMask: 2
+	Goal: 24    MeasPwr:12.93   gain: 22   ChannelFreq: 5510    txchainMask: 2
+	Goal: 25    MeasPwr:15.10   gain: 24   ChannelFreq: 5510    txchainMask: 2
+	Goal: 25    MeasPwr:16.80   gain: 26   ChannelFreq: 5510    txchainMask: 2
+	Goal: 25    MeasPwr:17.51   gain: 27   ChannelFreq: 5510    txchainMask: 2
+	Goal: 4    MeasPwr:1.02   gain: 2   ChannelFreq: 5530    txchainMask: 1
+	Goal: 5    MeasPwr:1.69   gain: 3   ChannelFreq: 5530    txchainMask: 1
+	Goal: 6    MeasPwr:2.48   gain: 4   ChannelFreq: 5530    txchainMask: 1
+	Goal: 7    MeasPwr:3.36   gain: 5   ChannelFreq: 5530    txchainMask: 1
+	Goal: 8    MeasPwr:4.24   gain: 6   ChannelFreq: 5530    txchainMask: 1
+	Goal: 9    MeasPwr:5.07   gain: 7   ChannelFreq: 5530    txchainMask: 1
+	Goal: 10    MeasPwr:5.97   gain: 8   ChannelFreq: 5530    txchainMask: 1
+	Goal: 11    MeasPwr:6.87   gain: 9   ChannelFreq: 5530    txchainMask: 1
+	Goal: 12    MeasPwr:7.81   gain: 10   ChannelFreq: 5530    txchainMask: 1
+	Goal: 13    MeasPwr:8.91   gain: 11   ChannelFreq: 5530    txchainMask: 1
+	Goal: 14    MeasPwr:9.92   gain: 12   ChannelFreq: 5530    txchainMask: 1
+	Goal: 15    MeasPwr:10.77   gain: 13   ChannelFreq: 5530    txchainMask: 1
+	Goal: 16    MeasPwr:11.66   gain: 14   ChannelFreq: 5530    txchainMask: 1
+	Goal: 17    MeasPwr:12.55   gain: 15   ChannelFreq: 5530    txchainMask: 1
+	Goal: 18    MeasPwr:13.41   gain: 16   ChannelFreq: 5530    txchainMask: 1
+	Goal: 19    MeasPwr:14.24   gain: 17   ChannelFreq: 5530    txchainMask: 1
+	Goal: 20    MeasPwr:15.12   gain: 18   ChannelFreq: 5530    txchainMask: 1
+	Goal: 21    MeasPwr:15.89   gain: 19   ChannelFreq: 5530    txchainMask: 1
+	Goal: 22    MeasPwr:16.73   gain: 20   ChannelFreq: 5530    txchainMask: 1
+	Goal: 23    MeasPwr:17.49   gain: 21   ChannelFreq: 5530    txchainMask: 1
+	Goal: 24    MeasPwr:18.23   gain: 22   ChannelFreq: 5530    txchainMask: 1
+	Goal: 25    MeasPwr:20.07   gain: 24   ChannelFreq: 5530    txchainMask: 1
+	Goal: 25    MeasPwr:21.00   gain: 26   ChannelFreq: 5530    txchainMask: 1
+	Goal: 25    MeasPwr:21.41   gain: 27   ChannelFreq: 5530    txchainMask: 1
+	Goal: 4    MeasPwr:-4.89   gain: 2   ChannelFreq: 5530    txchainMask: 2
+	Goal: 5    MeasPwr:-4.10   gain: 3   ChannelFreq: 5530    txchainMask: 2
+	Goal: 6    MeasPwr:-3.24   gain: 4   ChannelFreq: 5530    txchainMask: 2
+	Goal: 7    MeasPwr:-2.38   gain: 5   ChannelFreq: 5530    txchainMask: 2
+	Goal: 8    MeasPwr:-1.52   gain: 6   ChannelFreq: 5530    txchainMask: 2
+	Goal: 9    MeasPwr:-0.66   gain: 7   ChannelFreq: 5530    txchainMask: 2
+	Goal: 10    MeasPwr:0.22   gain: 8   ChannelFreq: 5530    txchainMask: 2
+	Goal: 11    MeasPwr:1.12   gain: 9   ChannelFreq: 5530    txchainMask: 2
+	Goal: 12    MeasPwr:2.04   gain: 10   ChannelFreq: 5530    txchainMask: 2
+	Goal: 13    MeasPwr:3.25   gain: 11   ChannelFreq: 5530    txchainMask: 2
+	Goal: 14    MeasPwr:4.08   gain: 12   ChannelFreq: 5530    txchainMask: 2
+	Goal: 15    MeasPwr:5.03   gain: 13   ChannelFreq: 5530    txchainMask: 2
+	Goal: 16    MeasPwr:5.90   gain: 14   ChannelFreq: 5530    txchainMask: 2
+	Goal: 17    MeasPwr:6.83   gain: 15   ChannelFreq: 5530    txchainMask: 2
+	Goal: 18    MeasPwr:7.56   gain: 16   ChannelFreq: 5530    txchainMask: 2
+	Goal: 19    MeasPwr:8.40   gain: 17   ChannelFreq: 5530    txchainMask: 2
+	Goal: 20    MeasPwr:9.23   gain: 18   ChannelFreq: 5530    txchainMask: 2
+	Goal: 21    MeasPwr:10.15   gain: 19   ChannelFreq: 5530    txchainMask: 2
+	Goal: 22    MeasPwr:11.03   gain: 20   ChannelFreq: 5530    txchainMask: 2
+	Goal: 23    MeasPwr:11.88   gain: 21   ChannelFreq: 5530    txchainMask: 2
+	Goal: 24    MeasPwr:12.74   gain: 22   ChannelFreq: 5530    txchainMask: 2
+	Goal: 25    MeasPwr:14.91   gain: 24   ChannelFreq: 5530    txchainMask: 2
+	Goal: 25    MeasPwr:16.65   gain: 26   ChannelFreq: 5530    txchainMask: 2
+	Goal: 25    MeasPwr:17.52   gain: 27   ChannelFreq: 5530    txchainMask: 2
+	Goal: 4    MeasPwr:0.37   gain: 2   ChannelFreq: 5600    txchainMask: 1
+	Goal: 5    MeasPwr:1.14   gain: 3   ChannelFreq: 5600    txchainMask: 1
+	Goal: 6    MeasPwr:2.02   gain: 4   ChannelFreq: 5600    txchainMask: 1
+	Goal: 7    MeasPwr:2.84   gain: 5   ChannelFreq: 5600    txchainMask: 1
+	Goal: 8    MeasPwr:3.70   gain: 6   ChannelFreq: 5600    txchainMask: 1
+	Goal: 9    MeasPwr:4.58   gain: 7   ChannelFreq: 5600    txchainMask: 1
+	Goal: 10    MeasPwr:5.41   gain: 8   ChannelFreq: 5600    txchainMask: 1
+	Goal: 11    MeasPwr:6.36   gain: 9   ChannelFreq: 5600    txchainMask: 1
+	Goal: 12    MeasPwr:7.33   gain: 10   ChannelFreq: 5600    txchainMask: 1
+	Goal: 13    MeasPwr:8.45   gain: 11   ChannelFreq: 5600    txchainMask: 1
+	Goal: 14    MeasPwr:9.35   gain: 12   ChannelFreq: 5600    txchainMask: 1
+	Goal: 15    MeasPwr:10.23   gain: 13   ChannelFreq: 5600    txchainMask: 1
+	Goal: 16    MeasPwr:11.15   gain: 14   ChannelFreq: 5600    txchainMask: 1
+	Goal: 17    MeasPwr:12.05   gain: 15   ChannelFreq: 5600    txchainMask: 1
+	Goal: 18    MeasPwr:12.89   gain: 16   ChannelFreq: 5600    txchainMask: 1
+	Goal: 19    MeasPwr:13.67   gain: 17   ChannelFreq: 5600    txchainMask: 1
+	Goal: 20    MeasPwr:14.51   gain: 18   ChannelFreq: 5600    txchainMask: 1
+	Goal: 21    MeasPwr:15.34   gain: 19   ChannelFreq: 5600    txchainMask: 1
+	Goal: 22    MeasPwr:16.16   gain: 20   ChannelFreq: 5600    txchainMask: 1
+	Goal: 23    MeasPwr:16.87   gain: 21   ChannelFreq: 5600    txchainMask: 1
+	Goal: 24    MeasPwr:17.61   gain: 22   ChannelFreq: 5600    txchainMask: 1
+	Goal: 25    MeasPwr:19.28   gain: 24   ChannelFreq: 5600    txchainMask: 1
+	Goal: 25    MeasPwr:20.17   gain: 26   ChannelFreq: 5600    txchainMask: 1
+	Goal: 25    MeasPwr:20.63   gain: 27   ChannelFreq: 5600    txchainMask: 1
+	Goal: 4    MeasPwr:-6.16   gain: 2   ChannelFreq: 5600    txchainMask: 2
+	Goal: 5    MeasPwr:-5.31   gain: 3   ChannelFreq: 5600    txchainMask: 2
+	Goal: 6    MeasPwr:-4.47   gain: 4   ChannelFreq: 5600    txchainMask: 2
+	Goal: 7    MeasPwr:-3.68   gain: 5   ChannelFreq: 5600    txchainMask: 2
+	Goal: 8    MeasPwr:-2.79   gain: 6   ChannelFreq: 5600    txchainMask: 2
+	Goal: 9    MeasPwr:-1.91   gain: 7   ChannelFreq: 5600    txchainMask: 2
+	Goal: 10    MeasPwr:-1.01   gain: 8   ChannelFreq: 5600    txchainMask: 2
+	Goal: 11    MeasPwr:-0.13   gain: 9   ChannelFreq: 5600    txchainMask: 2
+	Goal: 12    MeasPwr:0.80   gain: 10   ChannelFreq: 5600    txchainMask: 2
+	Goal: 13    MeasPwr:1.96   gain: 11   ChannelFreq: 5600    txchainMask: 2
+	Goal: 14    MeasPwr:2.91   gain: 12   ChannelFreq: 5600    txchainMask: 2
+	Goal: 15    MeasPwr:3.77   gain: 13   ChannelFreq: 5600    txchainMask: 2
+	Goal: 16    MeasPwr:4.69   gain: 14   ChannelFreq: 5600    txchainMask: 2
+	Goal: 17    MeasPwr:5.61   gain: 15   ChannelFreq: 5600    txchainMask: 2
+	Goal: 18    MeasPwr:6.36   gain: 16   ChannelFreq: 5600    txchainMask: 2
+	Goal: 19    MeasPwr:7.15   gain: 17   ChannelFreq: 5600    txchainMask: 2
+	Goal: 20    MeasPwr:8.06   gain: 18   ChannelFreq: 5600    txchainMask: 2
+	Goal: 21    MeasPwr:8.92   gain: 19   ChannelFreq: 5600    txchainMask: 2
+	Goal: 22    MeasPwr:9.82   gain: 20   ChannelFreq: 5600    txchainMask: 2
+	Goal: 23    MeasPwr:10.72   gain: 21   ChannelFreq: 5600    txchainMask: 2
+	Goal: 24    MeasPwr:11.56   gain: 22   ChannelFreq: 5600    txchainMask: 2
+	Goal: 25    MeasPwr:13.77   gain: 24   ChannelFreq: 5600    txchainMask: 2
+	Goal: 25    MeasPwr:15.46   gain: 26   ChannelFreq: 5600    txchainMask: 2
+	Goal: 25    MeasPwr:16.30   gain: 27   ChannelFreq: 5600    txchainMask: 2
+	Goal: 4    MeasPwr:0.43   gain: 2   ChannelFreq: 5690    txchainMask: 1
+	Goal: 5    MeasPwr:1.15   gain: 3   ChannelFreq: 5690    txchainMask: 1
+	Goal: 6    MeasPwr:1.95   gain: 4   ChannelFreq: 5690    txchainMask: 1
+	Goal: 7    MeasPwr:2.81   gain: 5   ChannelFreq: 5690    txchainMask: 1
+	Goal: 8    MeasPwr:3.63   gain: 6   ChannelFreq: 5690    txchainMask: 1
+	Goal: 9    MeasPwr:4.55   gain: 7   ChannelFreq: 5690    txchainMask: 1
+	Goal: 10    MeasPwr:5.38   gain: 8   ChannelFreq: 5690    txchainMask: 1
+	Goal: 11    MeasPwr:6.34   gain: 9   ChannelFreq: 5690    txchainMask: 1
+	Goal: 12    MeasPwr:7.24   gain: 10   ChannelFreq: 5690    txchainMask: 1
+	Goal: 13    MeasPwr:8.46   gain: 11   ChannelFreq: 5690    txchainMask: 1
+	Goal: 14    MeasPwr:9.31   gain: 12   ChannelFreq: 5690    txchainMask: 1
+	Goal: 15    MeasPwr:10.17   gain: 13   ChannelFreq: 5690    txchainMask: 1
+	Goal: 16    MeasPwr:11.06   gain: 14   ChannelFreq: 5690    txchainMask: 1
+	Goal: 17    MeasPwr:11.99   gain: 15   ChannelFreq: 5690    txchainMask: 1
+	Goal: 18    MeasPwr:12.88   gain: 16   ChannelFreq: 5690    txchainMask: 1
+	Goal: 19    MeasPwr:13.73   gain: 17   ChannelFreq: 5690    txchainMask: 1
+	Goal: 20    MeasPwr:14.53   gain: 18   ChannelFreq: 5690    txchainMask: 1
+	Goal: 21    MeasPwr:15.34   gain: 19   ChannelFreq: 5690    txchainMask: 1
+	Goal: 22    MeasPwr:16.05   gain: 20   ChannelFreq: 5690    txchainMask: 1
+	Goal: 23    MeasPwr:16.92   gain: 21   ChannelFreq: 5690    txchainMask: 1
+	Goal: 24    MeasPwr:17.63   gain: 22   ChannelFreq: 5690    txchainMask: 1
+	Goal: 25    MeasPwr:19.38   gain: 24   ChannelFreq: 5690    txchainMask: 1
+	Goal: 25    MeasPwr:20.38   gain: 26   ChannelFreq: 5690    txchainMask: 1
+	Goal: 25    MeasPwr:20.72   gain: 27   ChannelFreq: 5690    txchainMask: 1
+	Goal: 4    MeasPwr:-4.83   gain: 2   ChannelFreq: 5690    txchainMask: 2
+	Goal: 5    MeasPwr:-3.93   gain: 3   ChannelFreq: 5690    txchainMask: 2
+	Goal: 6    MeasPwr:-3.14   gain: 4   ChannelFreq: 5690    txchainMask: 2
+	Goal: 7    MeasPwr:-2.29   gain: 5   ChannelFreq: 5690    txchainMask: 2
+	Goal: 8    MeasPwr:-1.40   gain: 6   ChannelFreq: 5690    txchainMask: 2
+	Goal: 9    MeasPwr:-0.54   gain: 7   ChannelFreq: 5690    txchainMask: 2
+	Goal: 10    MeasPwr:0.36   gain: 8   ChannelFreq: 5690    txchainMask: 2
+	Goal: 11    MeasPwr:1.29   gain: 9   ChannelFreq: 5690    txchainMask: 2
+	Goal: 12    MeasPwr:2.12   gain: 10   ChannelFreq: 5690    txchainMask: 2
+	Goal: 13    MeasPwr:3.37   gain: 11   ChannelFreq: 5690    txchainMask: 2
+	Goal: 14    MeasPwr:4.27   gain: 12   ChannelFreq: 5690    txchainMask: 2
+	Goal: 15    MeasPwr:5.08   gain: 13   ChannelFreq: 5690    txchainMask: 2
+	Goal: 16    MeasPwr:5.94   gain: 14   ChannelFreq: 5690    txchainMask: 2
+	Goal: 17    MeasPwr:6.93   gain: 15   ChannelFreq: 5690    txchainMask: 2
+	Goal: 18    MeasPwr:7.70   gain: 16   ChannelFreq: 5690    txchainMask: 2
+	Goal: 19    MeasPwr:8.49   gain: 17   ChannelFreq: 5690    txchainMask: 2
+	Goal: 18    MeasPwr:7.58   gain: 16   ChannelFreq: 5690    txchainMask: 2
+	Goal: 19    MeasPwr:8.48   gain: 17   ChannelFreq: 5690    txchainMask: 2
+	Goal: 20    MeasPwr:9.33   gain: 18   ChannelFreq: 5690    txchainMask: 2
+	Goal: 21    MeasPwr:10.24   gain: 19   ChannelFreq: 5690    txchainMask: 2
+	Goal: 22    MeasPwr:11.09   gain: 20   ChannelFreq: 5690    txchainMask: 2
+	Goal: 23    MeasPwr:11.88   gain: 21   ChannelFreq: 5690    txchainMask: 2
+	Goal: 24    MeasPwr:12.90   gain: 22   ChannelFreq: 5690    txchainMask: 2
+	Goal: 25    MeasPwr:15.14   gain: 24   ChannelFreq: 5690    txchainMask: 2
+	Goal: 25    MeasPwr:16.82   gain: 26   ChannelFreq: 5690    txchainMask: 2
+	Goal: 25    MeasPwr:17.63   gain: 27   ChannelFreq: 5690    txchainMask: 2
+	Goal: 4    MeasPwr:1.48   gain: 2   ChannelFreq: 5720    txchainMask: 1
+	Goal: 5    MeasPwr:2.19   gain: 3   ChannelFreq: 5720    txchainMask: 1
+	Goal: 6    MeasPwr:2.99   gain: 4   ChannelFreq: 5720    txchainMask: 1
+	Goal: 7    MeasPwr:3.80   gain: 5   ChannelFreq: 5720    txchainMask: 1
+	Goal: 8    MeasPwr:4.66   gain: 6   ChannelFreq: 5720    txchainMask: 1
+	Goal: 9    MeasPwr:5.61   gain: 7   ChannelFreq: 5720    txchainMask: 1
+	Goal: 10    MeasPwr:6.41   gain: 8   ChannelFreq: 5720    txchainMask: 1
+	Goal: 11    MeasPwr:7.37   gain: 9   ChannelFreq: 5720    txchainMask: 1
+	Goal: 12    MeasPwr:8.29   gain: 10   ChannelFreq: 5720    txchainMask: 1
+	Goal: 13    MeasPwr:9.49   gain: 11   ChannelFreq: 5720    txchainMask: 1
+	Goal: 14    MeasPwr:10.34   gain: 12   ChannelFreq: 5720    txchainMask: 1
+	Goal: 15    MeasPwr:11.23   gain: 13   ChannelFreq: 5720    txchainMask: 1
+	Goal: 16    MeasPwr:12.11   gain: 14   ChannelFreq: 5720    txchainMask: 1
+	Goal: 17    MeasPwr:13.01   gain: 15   ChannelFreq: 5720    txchainMask: 1
+	Goal: 18    MeasPwr:13.88   gain: 16   ChannelFreq: 5720    txchainMask: 1
+	Goal: 19    MeasPwr:14.70   gain: 17   ChannelFreq: 5720    txchainMask: 1
+	Goal: 20    MeasPwr:15.54   gain: 18   ChannelFreq: 5720    txchainMask: 1
+	Goal: 21    MeasPwr:16.33   gain: 19   ChannelFreq: 5720    txchainMask: 1
+	Goal: 22    MeasPwr:17.09   gain: 20   ChannelFreq: 5720    txchainMask: 1
+	Goal: 23    MeasPwr:17.85   gain: 21   ChannelFreq: 5720    txchainMask: 1
+	Goal: 24    MeasPwr:18.57   gain: 22   ChannelFreq: 5720    txchainMask: 1
+	Goal: 25    MeasPwr:20.17   gain: 24   ChannelFreq: 5720    txchainMask: 1
+	Goal: 25    MeasPwr:20.98   gain: 26   ChannelFreq: 5720    txchainMask: 1
+	Goal: 25    MeasPwr:21.33   gain: 27   ChannelFreq: 5720    txchainMask: 1
+	Goal: 4    MeasPwr:-2.37   gain: 2   ChannelFreq: 5720    txchainMask: 2
+	Goal: 5    MeasPwr:-1.61   gain: 3   ChannelFreq: 5720    txchainMask: 2
+	Goal: 6    MeasPwr:-0.69   gain: 4   ChannelFreq: 5720    txchainMask: 2
+	Goal: 7    MeasPwr:0.19   gain: 5   ChannelFreq: 5720    txchainMask: 2
+	Goal: 8    MeasPwr:1.02   gain: 6   ChannelFreq: 5720    txchainMask: 2
+	Goal: 9    MeasPwr:1.88   gain: 7   ChannelFreq: 5720    txchainMask: 2
+	Goal: 10    MeasPwr:2.72   gain: 8   ChannelFreq: 5720    txchainMask: 2
+	Goal: 11    MeasPwr:3.75   gain: 9   ChannelFreq: 5720    txchainMask: 2
+	Goal: 12    MeasPwr:4.62   gain: 10   ChannelFreq: 5720    txchainMask: 2
+	Goal: 13    MeasPwr:5.80   gain: 11   ChannelFreq: 5720    txchainMask: 2
+	Goal: 14    MeasPwr:6.67   gain: 12   ChannelFreq: 5720    txchainMask: 2
+	Goal: 15    MeasPwr:7.52   gain: 13   ChannelFreq: 5720    txchainMask: 2
+	Goal: 16    MeasPwr:8.41   gain: 14   ChannelFreq: 5720    txchainMask: 2
+	Goal: 17    MeasPwr:9.32   gain: 15   ChannelFreq: 5720    txchainMask: 2
+	Goal: 18    MeasPwr:10.02   gain: 16   ChannelFreq: 5720    txchainMask: 2
+	Goal: 19    MeasPwr:10.94   gain: 17   ChannelFreq: 5720    txchainMask: 2
+	Goal: 20    MeasPwr:11.76   gain: 18   ChannelFreq: 5720    txchainMask: 2
+	Goal: 21    MeasPwr:12.68   gain: 19   ChannelFreq: 5720    txchainMask: 2
+	Goal: 22    MeasPwr:13.53   gain: 20   ChannelFreq: 5720    txchainMask: 2
+	Goal: 23    MeasPwr:14.42   gain: 21   ChannelFreq: 5720    txchainMask: 2
+	Goal: 24    MeasPwr:15.32   gain: 22   ChannelFreq: 5720    txchainMask: 2
+	Goal: 25    MeasPwr:17.51   gain: 24   ChannelFreq: 5720    txchainMask: 2
+	Goal: 25    MeasPwr:19.14   gain: 26   ChannelFreq: 5720    txchainMask: 2
+	Goal: 25    MeasPwr:19.79   gain: 27   ChannelFreq: 5720    txchainMask: 2
+	Goal: 4    MeasPwr:1.41   gain: 2   ChannelFreq: 5775    txchainMask: 1
+	Goal: 5    MeasPwr:2.06   gain: 3   ChannelFreq: 5775    txchainMask: 1
+	Goal: 6    MeasPwr:2.86   gain: 4   ChannelFreq: 5775    txchainMask: 1
+	Goal: 7    MeasPwr:3.70   gain: 5   ChannelFreq: 5775    txchainMask: 1
+	Goal: 8    MeasPwr:4.58   gain: 6   ChannelFreq: 5775    txchainMask: 1
+	Goal: 9    MeasPwr:5.45   gain: 7   ChannelFreq: 5775    txchainMask: 1
+	Goal: 10    MeasPwr:6.31   gain: 8   ChannelFreq: 5775    txchainMask: 1
+	Goal: 11    MeasPwr:7.27   gain: 9   ChannelFreq: 5775    txchainMask: 1
+	Goal: 12    MeasPwr:8.13   gain: 10   ChannelFreq: 5775    txchainMask: 1
+	Goal: 13    MeasPwr:9.41   gain: 11   ChannelFreq: 5775    txchainMask: 1
+	Goal: 14    MeasPwr:10.26   gain: 12   ChannelFreq: 5775    txchainMask: 1
+	Goal: 15    MeasPwr:11.18   gain: 13   ChannelFreq: 5775    txchainMask: 1
+	Goal: 16    MeasPwr:12.05   gain: 14   ChannelFreq: 5775    txchainMask: 1
+	Goal: 17    MeasPwr:12.97   gain: 15   ChannelFreq: 5775    txchainMask: 1
+	Goal: 18    MeasPwr:13.87   gain: 16   ChannelFreq: 5775    txchainMask: 1
+	Goal: 19    MeasPwr:14.77   gain: 17   ChannelFreq: 5775    txchainMask: 1
+	Goal: 20    MeasPwr:15.56   gain: 18   ChannelFreq: 5775    txchainMask: 1
+	Goal: 21    MeasPwr:16.40   gain: 19   ChannelFreq: 5775    txchainMask: 1
+	Goal: 22    MeasPwr:17.23   gain: 20   ChannelFreq: 5775    txchainMask: 1
+	Goal: 23    MeasPwr:17.96   gain: 21   ChannelFreq: 5775    txchainMask: 1
+	Goal: 24    MeasPwr:18.83   gain: 22   ChannelFreq: 5775    txchainMask: 1
+	Goal: 25    MeasPwr:20.68   gain: 24   ChannelFreq: 5775    txchainMask: 1
+	Goal: 25    MeasPwr:21.71   gain: 26   ChannelFreq: 5775    txchainMask: 1
+	Goal: 25    MeasPwr:22.08   gain: 27   ChannelFreq: 5775    txchainMask: 1
+	Goal: 4    MeasPwr:-0.71   gain: 2   ChannelFreq: 5775    txchainMask: 2
+	Goal: 5    MeasPwr:0.12   gain: 3   ChannelFreq: 5775    txchainMask: 2
+	Goal: 6    MeasPwr:0.93   gain: 4   ChannelFreq: 5775    txchainMask: 2
+	Goal: 7    MeasPwr:1.83   gain: 5   ChannelFreq: 5775    txchainMask: 2
+	Goal: 8    MeasPwr:2.67   gain: 6   ChannelFreq: 5775    txchainMask: 2
+	Goal: 9    MeasPwr:3.55   gain: 7   ChannelFreq: 5775    txchainMask: 2
+	Goal: 10    MeasPwr:4.44   gain: 8   ChannelFreq: 5775    txchainMask: 2
+	Goal: 11    MeasPwr:5.32   gain: 9   ChannelFreq: 5775    txchainMask: 2
+	Goal: 12    MeasPwr:6.28   gain: 10   ChannelFreq: 5775    txchainMask: 2
+	Goal: 13    MeasPwr:7.46   gain: 11   ChannelFreq: 5775    txchainMask: 2
+	Goal: 14    MeasPwr:8.41   gain: 12   ChannelFreq: 5775    txchainMask: 2
+	Goal: 15    MeasPwr:9.21   gain: 13   ChannelFreq: 5775    txchainMask: 2
+	Goal: 14    MeasPwr:8.33   gain: 12   ChannelFreq: 5775    txchainMask: 2
+	Goal: 15    MeasPwr:9.31   gain: 13   ChannelFreq: 5775    txchainMask: 2
+	Goal: 16    MeasPwr:10.12   gain: 14   ChannelFreq: 5775    txchainMask: 2
+	Goal: 17    MeasPwr:11.06   gain: 15   ChannelFreq: 5775    txchainMask: 2
+	Goal: 18    MeasPwr:11.79   gain: 16   ChannelFreq: 5775    txchainMask: 2
+	Goal: 19    MeasPwr:12.66   gain: 17   ChannelFreq: 5775    txchainMask: 2
+	Goal: 20    MeasPwr:13.59   gain: 18   ChannelFreq: 5775    txchainMask: 2
+	Goal: 21    MeasPwr:14.38   gain: 19   ChannelFreq: 5775    txchainMask: 2
+	Goal: 22    MeasPwr:15.34   gain: 20   ChannelFreq: 5775    txchainMask: 2
+	Goal: 23    MeasPwr:16.14   gain: 21   ChannelFreq: 5775    txchainMask: 2
+	Goal: 24    MeasPwr:17.01   gain: 22   ChannelFreq: 5775    txchainMask: 2
+	Goal: 25    MeasPwr:19.12   gain: 24   ChannelFreq: 5775    txchainMask: 2
+	Goal: 25    MeasPwr:20.48   gain: 26   ChannelFreq: 5775    txchainMask: 2
+	Goal: 25    MeasPwr:21.05   gain: 27   ChannelFreq: 5775    txchainMask: 2
+	Goal: 4    MeasPwr:1.20   gain: 2   ChannelFreq: 5825    txchainMask: 1
+	Goal: 5    MeasPwr:1.85   gain: 3   ChannelFreq: 5825    txchainMask: 1
+	Goal: 6    MeasPwr:2.64   gain: 4   ChannelFreq: 5825    txchainMask: 1
+	Goal: 7    MeasPwr:3.50   gain: 5   ChannelFreq: 5825    txchainMask: 1
+	Goal: 8    MeasPwr:4.33   gain: 6   ChannelFreq: 5825    txchainMask: 1
+	Goal: 9    MeasPwr:5.25   gain: 7   ChannelFreq: 5825    txchainMask: 1
+	Goal: 10    MeasPwr:6.15   gain: 8   ChannelFreq: 5825    txchainMask: 1
+	Goal: 11    MeasPwr:7.04   gain: 9   ChannelFreq: 5825    txchainMask: 1
+	Goal: 10    MeasPwr:6.14   gain: 8   ChannelFreq: 5825    txchainMask: 1
+	Goal: 11    MeasPwr:7.02   gain: 9   ChannelFreq: 5825    txchainMask: 1
+	Goal: 12    MeasPwr:7.96   gain: 10   ChannelFreq: 5825    txchainMask: 1
+	Goal: 13    MeasPwr:9.17   gain: 11   ChannelFreq: 5825    txchainMask: 1
+	Goal: 14    MeasPwr:10.08   gain: 12   ChannelFreq: 5825    txchainMask: 1
+	Goal: 15    MeasPwr:10.99   gain: 13   ChannelFreq: 5825    txchainMask: 1
+	Goal: 16    MeasPwr:11.88   gain: 14   ChannelFreq: 5825    txchainMask: 1
+	Goal: 17    MeasPwr:12.75   gain: 15   ChannelFreq: 5825    txchainMask: 1
+	Goal: 18    MeasPwr:13.73   gain: 16   ChannelFreq: 5825    txchainMask: 1
+	Goal: 19    MeasPwr:14.59   gain: 17   ChannelFreq: 5825    txchainMask: 1
+	Goal: 20    MeasPwr:15.39   gain: 18   ChannelFreq: 5825    txchainMask: 1
+	Goal: 21    MeasPwr:16.38   gain: 19   ChannelFreq: 5825    txchainMask: 1
+	Goal: 22    MeasPwr:17.14   gain: 20   ChannelFreq: 5825    txchainMask: 1
+	Goal: 23    MeasPwr:18.08   gain: 21   ChannelFreq: 5825    txchainMask: 1
+	Goal: 24    MeasPwr:18.84   gain: 22   ChannelFreq: 5825    txchainMask: 1
+	Goal: 25    MeasPwr:20.72   gain: 24   ChannelFreq: 5825    txchainMask: 1
+	Goal: 25    MeasPwr:21.81   gain: 26   ChannelFreq: 5825    txchainMask: 1
+	Goal: 25    MeasPwr:22.29   gain: 27   ChannelFreq: 5825    txchainMask: 1
+	Goal: 4    MeasPwr:0.69   gain: 2   ChannelFreq: 5825    txchainMask: 2
+	Goal: 5    MeasPwr:1.51   gain: 3   ChannelFreq: 5825    txchainMask: 2
+	Goal: 6    MeasPwr:2.36   gain: 4   ChannelFreq: 5825    txchainMask: 2
+	Goal: 7    MeasPwr:3.16   gain: 5   ChannelFreq: 5825    txchainMask: 2
+	Goal: 8    MeasPwr:4.04   gain: 6   ChannelFreq: 5825    txchainMask: 2
+	Goal: 9    MeasPwr:4.91   gain: 7   ChannelFreq: 5825    txchainMask: 2
+	Goal: 10    MeasPwr:5.80   gain: 8   ChannelFreq: 5825    txchainMask: 2
+	Goal: 11    MeasPwr:6.76   gain: 9   ChannelFreq: 5825    txchainMask: 2
+	Goal: 12    MeasPwr:7.58   gain: 10   ChannelFreq: 5825    txchainMask: 2
+	Goal: 13    MeasPwr:8.88   gain: 11   ChannelFreq: 5825    txchainMask: 2
+	Goal: 14    MeasPwr:9.77   gain: 12   ChannelFreq: 5825    txchainMask: 2
+	Goal: 15    MeasPwr:10.69   gain: 13   ChannelFreq: 5825    txchainMask: 2
+	Goal: 16    MeasPwr:11.47   gain: 14   ChannelFreq: 5825    txchainMask: 2
+	Goal: 17    MeasPwr:12.51   gain: 15   ChannelFreq: 5825    txchainMask: 2
+	Goal: 18    MeasPwr:13.25   gain: 16   ChannelFreq: 5825    txchainMask: 2
+	Goal: 19    MeasPwr:14.09   gain: 17   ChannelFreq: 5825    txchainMask: 2
+	Goal: 20    MeasPwr:15.03   gain: 18   ChannelFreq: 5825    txchainMask: 2
+	Goal: 21    MeasPwr:15.82   gain: 19   ChannelFreq: 5825    txchainMask: 2
+	Goal: 22    MeasPwr:16.75   gain: 20   ChannelFreq: 5825    txchainMask: 2
+	Goal: 23    MeasPwr:17.63   gain: 21   ChannelFreq: 5825    txchainMask: 2
+	Goal: 24    MeasPwr:18.48   gain: 22   ChannelFreq: 5825    txchainMask: 2
+	Goal: 25    MeasPwr:20.47   gain: 24   ChannelFreq: 5825    txchainMask: 2
+	Goal: 25    MeasPwr:21.73   gain: 26   ChannelFreq: 5825    txchainMask: 2
+	Goal: 25    MeasPwr:22.28   gain: 27   ChannelFreq: 5825    txchainMask: 2
+	Test Time: 208424 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 EVM= -36.70425 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Power= 13.70358 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Freq Error= -2.3838 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1765 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 EVM= -37.1111 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Power= 13.8461 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Freq Error= -2.3937 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5180 , HT_20_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1761 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 EVM= -36.81099 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Power= 13.78836 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Freq Error= -2.4127 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1760 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 EVM= -37.89962 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Power= 13.99168 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Freq Error= -2.3862 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5500 , HT_20_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1761 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 EVM= -39.27004 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Power= 13.1248 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Freq Error= -2.4151 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_1,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1563 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 EVM= -40.5298 dB ( -60 ~ -27 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Power= 12.7046 dBm ( 12 ~ 16 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Freq Error= -2.4404 ( -20 ~ 20 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5745 , HT_40_MCS7, ANT_2,  Power 14.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1561 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -37.74966 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 12.87515 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -2.4248 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1499 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -38.81026 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 12.774 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -2.4866 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 EVM= -39.11944 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Power= 12.85647 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Freq Error= -2.4876 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -38.71898 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 12.66477 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -2.4711 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5210 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1553 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -40.42349 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 12.88177 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -2.4029 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1498 (ms)
+	Error message: No error.
+
+  WIFI_TX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 EVM= -38.94432 dB ( -60 ~ -32 )	dB 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Power= 12.8579 dBm ( 11 ~ 15 )	dBm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Freq Error= -2.3157 ( -30 ~ 30 )	ppm 	Pass
+	WIFI_TX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power 13.00 Spec Mask=  0 % ( 0 ~ 2 )	% 	Pass
+	Test Time: 1499 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_1,  Power -56.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 590 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_1,  Power -56.00 PER= 3.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 589 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5530 , VHT_80_MCS9NSS1, ANT_2,  Power -56.00 PER= 0.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 580 (ms)
+	Error message: No error.
+
+  WIFI_RX_VERIFY_ALL
+	---------------------------------------------------------------------------  
+
+	WIFI_RX_VERIFY_ALL , Freq=5775 , VHT_80_MCS9NSS1, ANT_2,  Power -56.00 PER= 3.0000 ( 0 ~ 10 )	%  Pass
+	Test Time: 591 (ms)
+	Error message: No error.
+
+< WLAN Write Command >
+	
+MAC = 68:8f:2e:47:07:02
+	Test Time: 509 (ms)
+	Error message: No error.
+
+----------WLAN Close----------
+
+	Test Time: 103 (ms)
+	Error message: No error.
+
+
+
+Start Time: 2018-09-17 16:52:37
+Stop Time: 2018-09-17 16:57:01
+Total Test Time: 264 (Sec)
+Test Done:PASS
