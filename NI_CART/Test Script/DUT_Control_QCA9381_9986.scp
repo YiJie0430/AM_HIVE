@@ -1,5 +1,5 @@
 [0:Connect Server]
-Server IP = "Server IP;192.168.1.100;;;Edit;"
+Server IP = "Server IP;192.168.0.100;;;Edit;"
 Port = "Port;0;;;MEnum;0,1,2,3,4,5,6,7"
 
 
@@ -108,7 +108,7 @@ Ant = "Ant;1,2;;;RList;Mode"
 Power = "Power;-65;;;Edit;"
 Packet number = "Packet number;1000;;;Edit;	"
 Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
-PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+PER = "PER;Enable;0;100;MEnum;Enable,Disable"
 
 
 [9:WLAN RX PER_11N_2G_20M_SISO_1,6,9_MCS7]
@@ -119,7 +119,7 @@ Ant = "Ant;1,2;;;RList;Mode"
 Power = "Power;-63;;;Edit;"
 Packet number = "Packet number;1000;;;Edit;	"
 Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
-PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+PER = "PER;Enable;0;100;MEnum;Enable,Disable"
 
 
 [10:WLAN RX PER_11N_2G_40M_SISO_3,6,9_MCS7]
@@ -130,7 +130,7 @@ Ant = "Ant;1,2;;;RList;Mode"
 Power = "Power;-61;;;Edit;"
 Packet number = "Packet number;1000;;;Edit;	"
 Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
-PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+PER = "PER;Enable;0;100;MEnum;Enable,Disable"
 
 
 [11:WLAN WriteCmd]

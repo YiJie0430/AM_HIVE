@@ -1,0 +1,21 @@
+< Connect Server >
+
+	Test Time: 33 (ms)
+	Error message: No error.
+
+----------WLAN Initialize----------
+
+	Test Time: 242 (ms)
+	Error message: Error 66, TCP Read in TCPIP.lvlibp:TCPIP.lvclass:Read.vi->DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi->DUT_Control_QCA9381_9986.lvlibp:DUT_Control_QCA9381_9986.lvclass:Initial.vi->WLAN Measure.lvlib:Initial DUT.lvclass:Execute.vi->WiFi.lvlib:WiFi.lvclass:Execute.vi->Connectivity Client.vi
+
+----------WLAN Close----------
+
+	Test Time: 0 (ms)
+	Error message: Error 66, TCP Read in TCPIP.lvlibp:TCPIP.lvclass:Read.vi->DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi->DUT_Control_QCA9381_9986.lvlibp:DUT_Control_QCA9381_9986.lvclass:Close.vi->WLAN Measure.lvlib:Close.lvclass:Execute.vi->WiFi.lvlib:WiFi.lvclass:Execute.vi->Connectivity Client.vi
+
+
+
+Start Time: 2018-11-21 16:19:12
+Stop Time: 2018-11-21 16:19:12
+Total Test Time: 0 (Sec)
+Test Done:FAIL

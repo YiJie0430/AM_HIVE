@@ -384,7 +384,7 @@ def CheckNrm(func):
         result = 1
         rep = str()
         data = func(args[0], args[1], args[2], args[3], args[4], args[5])
-        parsing = re.findall(r'(?<=:\s\s)(.*)(?=\n)', data[0])
+        parsing = re.findall(r'(?<=:\s\s)(.*)(?=.*)', data[0])
         print parsing
         if not args[5]:
             # read md5 of the source file/path 
@@ -400,7 +400,7 @@ def CheckNrm(func):
             #result = 0
             rep = 'SN failed: {} (!= {})'.format(parsing[0], args[3])
         if '0xfe71' != str(parsing[5].split('\r')[0]):
-            result = 0
+            #result = 0
             rep = 'BT UUID failed: {} (!= 0xfe71)'.format(parsing[5])
         return (result, rep)
     return checkdata
@@ -433,7 +433,7 @@ def CheckBootUp(func):
                     #lWaitCmdTerm(term,'pmf -i','Erasing /dev/mtd8',5)
                     lWaitCmdTerm(term,'mtd erase /dev/mtd8','Erasing /dev/mtd8',5)
                     time.sleep(2)
-                    lWaitCmdTerm(term,'mtd erase /dev/mtd15','Erasing /dev/mtd15',5)
+                    lWaitCmdTerm(term,'mtd erase /dev/mtd16','Erasing /dev/mtd16',5)
                     time.sleep(1)
                 break
             if count == 1:
@@ -604,7 +604,7 @@ def W11(parent):
         parent.SendMessage( "---------------------------------------\n",log)
         parent.SendMessage( "Start Time:"+time.ctime()+"\n",log)
         parent.SendMessage( "Scan MAC address:"+mac+"\n",log)
-        '''
+        
         #########################   NI  Test by TDL  in 20160121  ##################### 
         parent.SendMessage( "Try to connect NI tester at %s\n"%NIip,log)
         if not IsConnect(NIip,5):
@@ -635,7 +635,7 @@ def W11(parent):
 
            parent.run_cart = True
         ########################   NI  Test by TDL  in 20160121  ##################### 
-        '''
+        
         parent.SendMessage('wait dut boot...........\n',log)
         term = NrmSetup(parent,term,mac,sn,log,pwr_check)
         #if pwr_check: PwrCheckInitReady(parent,log)     

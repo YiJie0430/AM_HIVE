@@ -236,7 +236,26 @@ def lWaitCmdTerm(term,cmd,waitstr,sec,count=3):
         #time.sleep(1)
     raise Except("failed: %s,%s"%(cmd,data[-1]))
 
-
+def lWaitCmdTerm(term,cmd,waitstr,sec,count=3):
+    for i in range(count):
+        data=list()
+        term << cmd
+        data = term.wait(waitstr,sec); #print data
+        if "help" in data[-1]: 
+            if cmd is 'password': pass
+            else: raise Except("ErrorCode[2000]: DUT Issue | wifi interface down")        
+        if "ttyS" in data[-1]:
+            time.sleep(2)
+            term<<""
+            term.get()            
+            #data = term.wait("%s"%promp,sec) 
+            term << "%s"%cmd
+            data = term.wait("%s"%waitstr,sec)
+            #print data[-1]
+        data1=data[-1].split(cmd+'\n')[-1]; print 'data1:', data1
+        if waitstr not in data1: raise Except("ErrorCode[1000]: CMD Issue | cmd: %s, return: %s"%(cmd,data)) 
+        data2=data[-1].split(cmd+'\n')[-1].split(waitstr)[0].strip(); print 'data2:', data2  
+        return data2
 
 class Xurl:
     """    snmp://<host>/<community>/<MIB File>/<MIB object>/<type>

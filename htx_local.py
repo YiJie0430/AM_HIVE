@@ -574,6 +574,12 @@ class ssh(Terminal):
 
         if self.finish in shout[-1]:
             shout[-1] = shout[-1].split(' ')[0]
+        
+        for idx, elm in enumerate(shout):
+            if self.finish in elm:
+                shout.pop(idx)
+                break
+
         shout = ''.join(shout)
         return shout
 

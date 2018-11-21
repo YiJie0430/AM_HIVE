@@ -1,0 +1,280 @@
+[0:Connect Server]
+Server IP = "Server IP;192.168.1.100;;;Edit;"
+Port = "Port;0;;;MEnum;0,1,2,3,4,5,6,7"
+
+
+[1:WLAN Initial DUT]
+DUT Settings File = "DUT Settings File;2G;;;Edit;"
+
+
+[2:WLAN GlobalSettings]
+DUT_MAC = "DUT_MAC;010000c0ffee;;;Edit;"
+Global_Mod_Avg = "Global_Mod_Avg;1;;;Edit;"
+Global_SEM_Avg = "Global_SEM_Avg;1;;;Edit;"
+Global_TXPower_Avg = "Global_TXPower_Avg;1;;;Edit;"
+Global_OBW_Avg = "Global_OBW_Avg;1;;;Edit;"
+Global_Header_Detection = "Global_Header_Detection;ON;;;MEnum;ON,OFF"
+Global_Gated_Power = "Global_Gated_Power;OFF;;;MEnum;ON,OFF"
+Global_Trigger_Delay = "Global_Trigger_Delay;0;;;Edit;"
+Global_Trigger_Timeout = "Global_Trigger_Timeout;1;;;Edit;"
+Global_OpcPolling_Time = "Global_OpcPolling_Time;50;;;Edit;"
+OFDM_Amplitude_Tracking = "OFDM_Amplitude_Tracking;OFF;;;MEnum;ON,OFF"
+OFDM_Phase_Tracking = "OFDM_Phase_Tracking;INSTant;;;MEnum;STANdard,INSTant,NONE,CSF"
+OFDM_Time_Tracking = "OFDM_Time_Tracking;ON;;;MEnum;ON,OFF"
+OFDM_Channel_Tracking = "OFDM_Channel_Tracking;ON;;;MEnum;ON,OFF"
+OFDM_Maximum_Symbols = "OFDM_Maximum_Symbols;16;;;Edit;"
+OFDM_Carr_Freq_Error_Method = "OFDM_Carr_Freq_Error_Method;PDATa;;;MEnum;PAMBle,PDATa"
+OFDM_Payload_Length = "OFDM_Payload_Length;1500;;;Edit;"
+OFDM_Guard_Interval = "OFDM_Guard_Interval;LONG;;;MEnum;LONG,SHORT"
+DSSS_Maximum_Chips = "DSSS_Maximum_Chips;16;;;Edit;"
+DSSS_Equalization = "DSSS_Equalization;OFF;;;MEnum;ON,OFF"
+DSSS_Phase_Tracking = "DSSS_Phase_Tracking;INSTant;;;MEnum;STANdard,INSTant"
+DSSS_Pulse_Shaping_Filter = "DSSS_Pulse_Shaping_Filter;RCOSine;;;MEnum;NONE,RCOSine,RRCOSine,GAUSsian"
+DSSS_Filter_Coefficient = "DSSS_Filter_Coefficient;0.5;;;Edit;"
+11A_G_Acquisition_Length_us = "11A_G_Acquisition_Length_us;100;;;Edit;"
+11B_Acquisition_Length_us = "11B_Acquisition_Length_us;500;;;Edit;"
+11N_Acquisition_Length_us = "11N_Acquisition_Length_us;150;;;Edit;"
+11AC_Acquisition_Length_us = "11AC_Acquisition_Length_us;300;;;Edit;"
+RFSG_Payload_Type = "RFSG_Payload_Type;PN9;;;MEnum;ALLOnes,ALLZeros,PN9"
+RFSG_Payload_Length = "RFSG_Payload_Length;1500;;;Edit;"
+RFSG_Idle_Interval = "RFSG_Idle_Interval;0.0001;;;Edit;"
+
+[3:WLAN PowerCalibration]
+PowerCalibration = "PowerCalibration;;;;;"
+
+
+[4:WLAN FreqCalibration]
+FreqCalibration = "FreqCalibration;;;;;"
+
+
+[5:WLAN TX Verify_11A/G_2G_20M_1,6,11_OFDM_54M]
+Mode = "Mode;11A/G_2G_20M;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;1,6,11;;;RList;Mode"
+DataRate = "DataRate;OFDM_54M;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;9;;;Edit;	"
+EVM = "EVM;Enable;-60;-25;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;7;11;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;5;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[6:WLAN TX Verify_11N_2G_20M_SISO_1,6,11_MCS7]
+Mode = "Mode;11N_2G_20M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;1,6,11;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;9;;;Edit;	"
+EVM = "EVM;Enable;-60;-27;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;7;11;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;5;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[7:WLAN TX Verify_11N_2G_40M_SISO_3,6,9_MCS7]
+Mode = "Mode;11N_2G_40M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_20M_2MIMO,11AC_5G_20M_3MIMO,11AC_5G_20M_4MIMO,11AC_5G_40M_SISO,11AC_5G_40M_2MIMO,11AC_5G_40M_3MIMO,11AC_5G_40M_4MIMO,11AC_5G_80M_SISO,11AC_5G_80M_2MIMO,11AC_5G_80M_3MIMO,11AC_5G_80M_4MIMO,11AC_5G_8080M_SISO,11AC_5G_8080M_2MIMO,11AC_2G_20M_SISO,11AC_2G_20M_2MIMO,11AC_2G_20M_3MIMO,11AC_2G_20M_4MIMO,11AC_2G_40M_SISO,11AC_2G_40M_2MIMO,11AC_2G_40M_3MIMO,11AC_2G_40M_4MIMO,11N_5G_20M_SISO,11N_5G_20M_2MIMO,11N_5G_20M_3MIMO,11N_5G_20M_4MIMO,11N_5G_40M_SISO,11N_5G_40M_2MIMO,11N_5G_40M_3MIMO,11N_5G_40M_4MIMO,11N_2G_20M_SISO,11N_2G_20M_2MIMO,11N_2G_20M_3MIMO,11N_2G_20M_4MIMO,11N_2G_40M_SISO,11N_2G_40M_2MIMO,11N_2G_40M_3MIMO,11N_2G_40M_4MIMO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;3,6,9;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;9;;;Edit;	"
+EVM = "EVM;Enable;-60;-27;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;7;11;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;5;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+
+
+[8:WLAN RX PER_11A/G_2G_20M_1,6,9_OFDM_54M]
+Mode = "Mode;11A/G_2G_20M;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;1,6,9;;;RList;Mode"
+DataRate = "DataRate;OFDM_54M;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;-65;;;Edit;"
+Packet number = "Packet number;1000;;;Edit;	"
+Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
+PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+
+
+[9:WLAN RX PER_11N_2G_20M_SISO_1,6,9_MCS7]
+Mode = "Mode;11N_2G_20M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;1,6,9;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;-63;;;Edit;"
+Packet number = "Packet number;1000;;;Edit;	"
+Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
+PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+
+
+[10:WLAN RX PER_11N_2G_40M_SISO_3,6,9_MCS7]
+Mode = "Mode;11N_2G_40M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_20M_2MIMO,11AC_5G_20M_3MIMO,11AC_5G_20M_4MIMO,11AC_5G_40M_SISO,11AC_5G_40M_2MIMO,11AC_5G_40M_3MIMO,11AC_5G_40M_4MIMO,11AC_5G_80M_SISO,11AC_5G_80M_2MIMO,11AC_5G_80M_3MIMO,11AC_5G_80M_4MIMO,11AC_5G_8080M_SISO,11AC_5G_8080M_2MIMO,11AC_2G_20M_SISO,11AC_2G_20M_2MIMO,11AC_2G_20M_3MIMO,11AC_2G_20M_4MIMO,11AC_2G_40M_SISO,11AC_2G_40M_2MIMO,11AC_2G_40M_3MIMO,11AC_2G_40M_4MIMO,11N_5G_20M_SISO,11N_5G_20M_2MIMO,11N_5G_20M_3MIMO,11N_5G_20M_4MIMO,11N_5G_40M_SISO,11N_5G_40M_2MIMO,11N_5G_40M_3MIMO,11N_5G_40M_4MIMO,11N_2G_20M_SISO,11N_2G_20M_2MIMO,11N_2G_20M_3MIMO,11N_2G_20M_4MIMO,11N_2G_40M_SISO,11N_2G_40M_2MIMO,11N_2G_40M_3MIMO,11N_2G_40M_4MIMO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;3,6,9;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;-61;;;Edit;"
+Packet number = "Packet number;1000;;;Edit;	"
+Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
+PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+
+
+[11:WLAN WriteCmd]
+Write cmd = "Write cmd;Enable;;;MEnum;Enable,Disable"
+
+
+[12:WLAN Close]
+Close = "Close;;;;;	"
+
+
+[13:WLAN Initial DUT]
+DUT Settings File = "DUT Settings File;5G;;;Edit;"
+
+
+[14:WLAN GlobalSettings]
+DUT_MAC = "DUT_MAC;010000c0ffee;;;Edit;"
+Global_Mod_Avg = "Global_Mod_Avg;1;;;Edit;"
+Global_SEM_Avg = "Global_SEM_Avg;1;;;Edit;"
+Global_TXPower_Avg = "Global_TXPower_Avg;1;;;Edit;"
+Global_OBW_Avg = "Global_OBW_Avg;1;;;Edit;"
+Global_Header_Detection = "Global_Header_Detection;ON;;;MEnum;ON,OFF"
+Global_Gated_Power = "Global_Gated_Power;OFF;;;MEnum;ON,OFF"
+Global_Trigger_Delay = "Global_Trigger_Delay;0;;;Edit;"
+Global_Trigger_Timeout = "Global_Trigger_Timeout;1;;;Edit;"
+Global_OpcPolling_Time = "Global_OpcPolling_Time;50;;;Edit;"
+OFDM_Amplitude_Tracking = "OFDM_Amplitude_Tracking;OFF;;;MEnum;ON,OFF"
+OFDM_Phase_Tracking = "OFDM_Phase_Tracking;INSTant;;;MEnum;STANdard,INSTant,NONE,CSF"
+OFDM_Time_Tracking = "OFDM_Time_Tracking;ON;;;MEnum;ON,OFF"
+OFDM_Channel_Tracking = "OFDM_Channel_Tracking;ON;;;MEnum;ON,OFF"
+OFDM_Maximum_Symbols = "OFDM_Maximum_Symbols;16;;;Edit;"
+OFDM_Carr_Freq_Error_Method = "OFDM_Carr_Freq_Error_Method;PDATa;;;MEnum;PAMBle,PDATa"
+OFDM_Payload_Length = "OFDM_Payload_Length;1024;;;Edit;"
+OFDM_Guard_Interval = "OFDM_Guard_Interval;LONG;;;MEnum;LONG,SHORT"
+DSSS_Maximum_Chips = "DSSS_Maximum_Chips;16;;;Edit;"
+DSSS_Equalization = "DSSS_Equalization;OFF;;;MEnum;ON,OFF"
+DSSS_Phase_Tracking = "DSSS_Phase_Tracking;INSTant;;;MEnum;STANdard,INSTant"
+DSSS_Pulse_Shaping_Filter = "DSSS_Pulse_Shaping_Filter;RCOSine;;;MEnum;NONE,RCOSine,RRCOSine,GAUSsian"
+DSSS_Filter_Coefficient = "DSSS_Filter_Coefficient;0.5;;;Edit;"
+11A_G_Acquisition_Length_us = "11A_G_Acquisition_Length_us;100;;;Edit;"
+11B_Acquisition_Length_us = "11B_Acquisition_Length_us;500;;;Edit;"
+11N_Acquisition_Length_us = "11N_Acquisition_Length_us;150;;;Edit;"
+11AC_Acquisition_Length_us = "11AC_Acquisition_Length_us;300;;;Edit;"
+RFSG_Payload_Type = "RFSG_Payload_Type;PN9;;;MEnum;ALLOnes,ALLZeros,PN9"
+RFSG_Payload_Length = "RFSG_Payload_Length;1024;;;Edit;"
+RFSG_Idle_Interval = "RFSG_Idle_Interval;0.0001;;;Edit;"
+
+[15:WLAN FreqCalibration]
+FreqCalibration = "FreqCalibration;;;;;"
+
+
+[16:WLAN PowerCalibration]
+PowerCalibration = "PowerCalibration;;;;;"
+
+
+[17:WLAN TX Verify_11N_5G_20M_SISO_36_MCS7]
+Mode = "Mode;11N_5G_20M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;36;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;14;;;Edit;	"
+EVM = "EVM;Enable;-60;-27;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;12;16;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;2;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[18:WLAN TX Verify_11N_5G_20M_SISO_100_MCS7]
+Mode = "Mode;11N_5G_20M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;100;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;14;;;Edit;	"
+EVM = "EVM;Enable;-60;-27;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;12;16;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;2;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[19:WLAN TX Verify_11N_5G_40M_SISO_149_MCS7]
+Mode = "Mode;11N_5G_40M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;149;;;RList;Mode"
+DataRate = "DataRate;MCS7;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;14;;;Edit;	"
+EVM = "EVM;Enable;-60;-27;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;12;16;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-20;20;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;2;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[20:WLAN TX Verify_11AC_5G_80M_SISO_42,106,155_MCS9NSS1]
+Mode = "Mode;11AC_5G_80M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;42,106,155;;;RList;Mode"
+DataRate = "DataRate;MCS9NSS1;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;13;;;Edit;	"
+EVM = "EVM;Enable;-60;-32;MEnum;Enable,Disable"
+Avg_Power = "Avg_Power;Enable;11;15;MEnum;Enable,Disable"
+Carr_Freq_Error = "Carr_Freq_Error;Enable;-30;30;MEnum;Enable,Disable"
+LO_Leakage = "LO_Leakage;Disable;-100;-15;MEnum;Enable,Disable"
+IQ_Imbalance = "IQ_Imbalance;Disable;-1;1;MEnum;Enable,Disable"
+Samp_Clock_Offset = "Samp_Clock_Offset;Disable;-10;30;MEnum;Enable,Disable"
+Spect_Flat_Margin = "Spect_Flat_Margin;Disable;2;6;MEnum;Enable,Disable"
+Spectrum_Mask = "Spectrum_Mask;Enable;0;2;MEnum;Enable,Disable"
+OBW = "OBW;Disable;0;20;MEnum;Enable,Disable"
+Mask_Margin = "Mask_Margin;Disable;0;;MEnum;Enable,Disable"
+
+
+[21:WLAN RX PER_11AC_5G_80M_SISO_106,155_MCS9NSS1]
+Mode = "Mode;11AC_5G_80M_SISO;;;Enum;11AC_5G_20M_SISO,11AC_5G_40M_SISO,11AC_5G_80M_SISO,11AC_2G_20M_SISO,11AC_2G_40M_SISO,11N_5G_20M_SISO,11N_5G_40M_SISO,11N_2G_20M_SISO,11N_2G_40M_SISO,11A/G_5G_20M,11A/G_2G_20M,11B_2G_20M"
+Channel = "Channel;106,155;;;RList;Mode"
+DataRate = "DataRate;MCS9NSS1;;;RList;Mode"
+Ant = "Ant;1,2;;;RList;Mode"
+Power = "Power;-51;;;Edit;"
+Packet number = "Packet number;100;;;Edit;	"
+Power Min = "Power Min;Enable;;;MEnum;Enable,Disable"
+PER = "PER;Enable;0;10;MEnum;Enable,Disable"
+
+
+[22:WLAN WriteCmd]
+Write cmd = "Write cmd;Enable;;;MEnum;Enable,Disable"
+
+
+[23:WLAN Close]
+Close = "Close;;;;;	"
+
+
+[24:End]
+End = "End;;;;;	"

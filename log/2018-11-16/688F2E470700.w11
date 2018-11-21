@@ -1,6 +1,6 @@
 WIFI Calibration test program version: SR2_beta3.1 , Station: T8R1
 ---------------------------------------
-Start Time:Fri Nov 16 19:10:53 2018
+Start Time:Fri Nov 16 19:43:28 2018
 Scan MAC address:688F2E470700
 wait dut boot...........
 root@xe1-plume-rdk-broadband-hitron-nvram:~# pmf -e
@@ -13,10 +13,12 @@ NrmSetup Start...
 Dload client_dec.key.:
 root@xe1-plume-rdk-broadband-hitron-nvram:~# cd /var && tftp -g 192.168.1.10 -r 
 client_dec.key
+echo end of stdOUT buffer $?
 root@xe1-plume-rdk-broadband-hitron-nvram:/var#
 Dload client.pem.:
 root@xe1-plume-rdk-broadband-hitron-nvram:/var# cd /var && tftp -g 192.168.1.10 
 -r client.pem
+echo end of stdOUT buffer $?
 root@xe1-plume-rdk-broadband-hitron-nvram:/var#
 BT.UUID:
 root@xe1-plume-rdk-broadband-hitron-nvram:/var# pmf -u -w 0xfe71
@@ -68,8 +70,19 @@ client_dec.key                                 52e470bfe2ee209451a3f2cda4808845
 ca.pem MD5 check: 0ef4d26bb553555acd81b986d711e16f
 client.pem MD5 check: d098e843073da06a00813a4f8224bb19
 client_dec.key MD5 check: 52e470bfe2ee209451a3f2cda4808845
-NrmSetup Failed : BT UUID failed: 2G chain0: ffffffff (!= 0xfe71)
+NrmSetup Test time: 18.07 (sec)
+---------------------------------------------------------------------------
+Start up 2G by cd / && ./etc/init.d/art start
+Check 2G initial ready Test time: 4.36 (sec)
+---------------------------------------------------------------------------
 
-End Time:Fri Nov 16 19:11:11 2018
-total time: 18.06
+Traceback (most recent call last):
+  File ".\MFT512.py", line 643, in W11
+NameError: global name 'term_TCP' is not defined
+
+
+None
+
+End Time:Fri Nov 16 19:43:52 2018
+total time: 23.74
 Test Result:FAIL

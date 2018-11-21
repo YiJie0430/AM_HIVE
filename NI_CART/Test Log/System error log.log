@@ -737,3 +737,430 @@ D:\HitronProject\hive-2200_latest\HIVE-2200\HIVE-2200_NI_SR2_beta3.1\NI_CART\Plu
 <b>LabVIEW attempted to load the class at this path:</b>
 D:\HitronProject\hive-2200_latest\HIVE-2200\HIVE-2200_NI_SR2_beta3.1\NI_CART\PlugIn\DUT_Control_QCA9381_9986.lvlibp\PlugIn\DUT_Control_QCA9381_9986\DUT_Control_QCA9381_9986.lvclass
 
+2018-11-19 10:29:00.315	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 10:29:00.447	Error -999, Stopped
+
+2018-11-19 10:39:03.149	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 10:39:03.210	Error -999, Stopped
+
+2018-11-19 11:35:54.083	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 11:35:54.105	Error -999, Connect Fail
+
+2018-11-19 11:38:21.072	Error -999, Connect Fail
+
+2018-11-19 11:41:03.180	Error -999, Connect Fail
+
+2018-11-19 14:21:52.120	Error -999, Stopped
+
+2018-11-19 14:21:55.179	Error -999, DUT Initial Fail
+
+2018-11-19 14:29:44.875	Error -999, Stopped
+
+2018-11-19 14:29:47.966	Error -999, DUT Initial Fail
+
+2018-11-19 14:32:43.848	Error -999, Stopped
+
+2018-11-19 14:32:46.906	Error -999, DUT Initial Fail
+
+2018-11-19 14:35:36.592	Error -999, Stopped
+
+2018-11-19 14:35:39.641	Error -999, DUT Initial Fail
+
+2018-11-19 14:39:03.477	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 14:39:03.622	Error -999, Stopped
+
+2018-11-19 14:40:46.015	Error -999, Stopped
+
+2018-11-19 14:40:49.073	Error -999, DUT Initial Fail
+
+2018-11-19 17:20:21.951	Error -999, Stopped
+
+2018-11-19 17:20:25.028	Error -999, DUT Initial Fail
+
+2018-11-19 17:42:17.721	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 17:42:17.828	Error -999, Stopped
+
+2018-11-19 17:45:50.486	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 17:45:50.598	Error -999, Stopped
+
+2018-11-19 17:49:14.406	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 17:49:14.498	Error -999, Stopped
+
+2018-11-19 17:52:37.588	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 17:52:37.759	Error -999, Stopped
+
+2018-11-19 17:59:55.639	Error -999, Stopped
+
+2018-11-19 17:59:58.720	Error -999, DUT Initial Fail
+
+2018-11-19 18:07:09.282	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:07:09.354	Error -999, Stopped
+
+2018-11-19 18:29:28.665	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:29:28.722	Error -999, Connect Fail
+
+2018-11-19 18:32:11.747	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:32:11.806	Error -999, Connect Fail
+
+2018-11-19 18:34:02.138	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:34:02.183	Error -999, Connect Fail
+
+2018-11-19 18:36:40.556	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:36:40.604	Error -999, Connect Fail
+
+2018-11-19 18:38:18.489	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-19 18:38:18.769	Error -999, Connect Fail
+
+2018-11-19 18:40:10.560	Error -999, Connect Fail
+
+2018-11-19 18:40:13.616	Error -999, DUT Initial Fail
+
+2018-11-19 18:40:13.767	Error -999, Connect Fail
+
+2018-11-19 19:08:21.864	Error -999, Connect Fail
+
+2018-11-19 19:11:05.733	Error -999, Connect Fail
+
+2018-11-20 16:27:26.938	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 16:27:27.056	Error -999, Stopped
+
+2018-11-20 16:30:55.198	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 16:30:55.257	Error -999, Stopped
+
+2018-11-20 16:35:00.675	Error -999, Stopped
+
+2018-11-20 16:35:03.732	Error -999, DUT Initial Fail
+
+2018-11-20 16:51:16.053	Error -999, Stopped
+
+2018-11-20 16:51:19.109	Error -999, DUT Initial Fail
+
+2018-11-20 17:04:47.642	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:04:47.767	Error -999, Stopped
+
+2018-11-20 17:08:09.362	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:08:09.506	Error -999, Stopped
+
+2018-11-20 17:11:51.642	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:11:51.776	Error -999, Stopped
+
+2018-11-20 17:17:13.956	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:17:14.055	Error -999, Stopped
+
+2018-11-20 17:18:58.322	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:18:58.491	Error -999, Stopped
+
+2018-11-20 17:20:59.190	Error -999, DUT Initial Fail
+
+2018-11-20 17:24:03.092	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:24:03.152	Error -999, Stopped
+
+2018-11-20 17:25:40.007	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:25:40.070	Error -999, Stopped
+
+2018-11-20 17:28:02.367	Error 56, TCP Read in TCPIP.lvlibp:TCPIP.lvclass:Read.vi->DUT_Control_QCA9381_9986.lvlibp:Report Cal Measured Power.vi->DUT_Control_QCA9381_9986.lvlibp:DUT_Control_QCA9381_9986.lvclass:PowerCalibration.vi->WLAN Measure.lvlib:PowerCalibration.lvclass:Execute.vi->WiFi.lvlib:WiFi.lvclass:Execute.vi->Connectivity Client.vi
+
+2018-11-20 17:28:02.463	Error -999, Stopped
+
+2018-11-20 17:29:44.197	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:29:44.361	Error -999, Stopped
+
+2018-11-20 17:31:16.746	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:31:16.808	Error -999, Stopped
+
+2018-11-20 17:34:01.964	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:34:02.065	Error -999, Stopped
+
+2018-11-20 17:36:05.513	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:36:05.623	Error -999, Stopped
+
+2018-11-20 17:39:09.539	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:39:09.589	Error -999, Stopped
+
+2018-11-20 17:44:29.720	Error -999, DUT Initial Fail
+
+2018-11-20 17:54:17.125	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:54:17.182	Error -999, Stopped
+
+2018-11-20 17:55:54.952	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:55:55.008	Error -999, Stopped
+
+2018-11-20 17:58:10.647	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:58:10.715	Error -999, Stopped
+
+2018-11-20 17:59:41.388	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 17:59:41.443	Error -999, Stopped
+
+2018-11-20 18:01:46.335	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:01:46.593	Error -999, Connect Fail
+
+2018-11-20 18:03:36.214	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:03:36.281	Error -999, Stopped
+
+2018-11-20 18:13:02.937	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:13:03.092	Error -999, Stopped
+
+2018-11-20 18:23:05.025	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:23:05.184	Error -999, Stopped
+
+2018-11-20 18:29:23.828	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:29:23.882	Error -999, Stopped
+
+2018-11-20 18:30:55.753	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:30:55.815	Error -999, Stopped
+
+2018-11-20 18:32:26.675	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:32:26.739	Error -999, Stopped
+
+2018-11-20 18:37:56.739	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:37:56.799	Error -999, Stopped
+
+2018-11-20 18:39:28.824	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-20 18:39:28.902	Error -999, Stopped
+
+2018-11-21 15:19:23.312	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:19:23.391	Error -999, Stopped
+
+2018-11-21 15:22:30.384	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:22:30.543	Error -999, Stopped
+
+2018-11-21 15:24:03.940	Error -999, Stopped
+
+2018-11-21 15:24:06.996	Error -999, DUT Initial Fail
+
+2018-11-21 15:26:41.790	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:26:41.871	Error -999, Stopped
+
+2018-11-21 15:28:50.610	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:28:50.697	Error -999, Stopped
+
+2018-11-21 15:30:22.590	Error -999, Stopped
+
+2018-11-21 15:30:25.652	Error -999, DUT Initial Fail
+
+2018-11-21 15:40:24.162	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:40:24.282	Error -999, Stopped
+
+2018-11-21 15:41:42.894	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:41:42.973	Error -999, Stopped
+
+2018-11-21 15:47:11.892	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:47:12.007	Error -999, Stopped
+
+2018-11-21 15:48:30.451	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:48:30.606	Error -999, Stopped
+
+2018-11-21 15:49:32.086	Error -999, Stopped
+
+2018-11-21 15:49:35.117	Error -999, DUT Initial Fail
+
+2018-11-21 15:55:23.832	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:55:23.889	Error -999, Stopped
+
+2018-11-21 15:57:11.724	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:57:11.782	Error -999, Stopped
+
+2018-11-21 15:59:36.907	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 15:59:36.986	Error -999, Stopped
+
+2018-11-21 16:01:12.744	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:01:12.776	Error -999, Stopped
+
+2018-11-21 16:02:35.967	Error -999, Stopped
+
+2018-11-21 16:02:39.000	Error -999, DUT Initial Fail
+
+2018-11-21 16:09:32.525	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:09:32.598	Error -999, Stopped
+
+2018-11-21 16:11:24.681	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:11:24.729	Error -999, Stopped
+
+2018-11-21 16:13:05.478	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:13:05.548	Error -999, Stopped
+
+2018-11-21 16:14:50.375	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:14:50.427	Error -999, Stopped
+
+2018-11-21 16:16:27.210	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:16:27.274	Error -999, Stopped
+
+2018-11-21 16:18:27.062	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:18:27.123	Error -999, Stopped
+
+2018-11-21 16:19:12.532	Error 66, TCP Read in TCPIP.lvlibp:TCPIP.lvclass:Read.vi->DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi->DUT_Control_QCA9381_9986.lvlibp:DUT_Control_QCA9381_9986.lvclass:Initial.vi->WLAN Measure.lvlib:Initial DUT.lvclass:Execute.vi->WiFi.lvlib:WiFi.lvclass:Execute.vi->Connectivity Client.vi
+
+2018-11-21 16:19:12.548	Error -999, Stopped
+
+2018-11-21 16:20:58.855	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:20:58.921	Error -999, Stopped
+
+2018-11-21 16:22:51.228	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:22:51.280	Error -999, Stopped
+
+2018-11-21 16:24:40.194	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:24:40.300	Error -999, Stopped
+
+2018-11-21 16:26:21.448	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:26:21.505	Error -999, Stopped
+
+2018-11-21 16:28:03.502	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:28:03.569	Error -999, Stopped
+
+2018-11-21 16:29:31.295	Error -999, Stopped
+
+2018-11-21 16:29:34.328	Error -999, DUT Initial Fail
+
+2018-11-21 16:31:33.387	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:31:33.445	Error -999, Stopped
+
+2018-11-21 16:33:29.516	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:33:29.623	Error -999, Stopped
+
+2018-11-21 16:36:19.808	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:36:19.867	Error -999, Stopped
+
+2018-11-21 16:37:51.698	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 16:37:51.763	Error -999, Stopped
+
+2018-11-21 18:18:24.089	Error 10056, DUT_Control_QCA9381_9986.lvlibp:TCP Wait For Specific Response.vi<ERR>
+Timed out waiting for desired response.
+
+2018-11-21 18:18:24.195	Error -999, Stopped
+
